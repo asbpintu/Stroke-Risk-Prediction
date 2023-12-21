@@ -1,2 +1,204 @@
 [2023-12-21 12:55:35,055: INFO: main: Log Created]
 [2023-12-21 13:01:25,639: INFO: main: Log Created]
+[2023-12-21 14:07:05,097: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-21 14:07:05,099: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-21 14:12:32,276: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-21 14:12:32,279: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-21 14:12:32,282: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-21 14:12:32,282: INFO: common: created directory at: artifacts]
+[2023-12-21 14:12:32,289: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-21 14:12:32,292: INFO: 3786833428: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-21 14:12:34,997: INFO: 3786833428: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-21 14:20:30,335: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-21 14:20:30,340: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-21 14:20:30,343: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-21 14:20:30,344: INFO: common: created directory at: artifacts]
+[2023-12-21 14:20:30,346: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-21 14:20:30,346: INFO: 3786833428: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-21 14:20:32,981: INFO: 3786833428: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-21 14:20:50,697: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-21 14:20:50,697: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-21 14:20:50,703: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-21 14:20:50,706: INFO: common: created directory at: artifacts]
+[2023-12-21 14:20:50,707: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-21 14:20:50,709: INFO: 2409782323: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-21 14:20:52,665: INFO: 2409782323: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-21 14:20:52,687: INFO: 2409782323: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2023-12-21 14:55:28,646: INFO: s1_data_ingestion: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-21 14:55:28,646: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-21 14:55:28,646: INFO: main: 
+
+******** Stage :  Data Ingestion -- (Started) ********
+
+]
+[2023-12-21 14:55:28,646: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-21 14:55:28,646: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-21 14:55:28,646: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-21 14:55:28,646: INFO: common: created directory at: artifacts]
+[2023-12-21 14:55:28,646: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-21 14:55:28,646: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-21 14:55:30,800: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2023-12-21 14:55:30,816: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2023-12-21 14:55:30,816: INFO: main: 
+
+******** Stage :  Data Ingestion -- (Completed) ********
+
+]
+[2023-12-21 14:56:16,002: INFO: s1_data_ingestion: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-21 14:56:16,002: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-21 14:56:16,002: INFO: main: 
+
+******** Stage :  Data Ingestion -- (Started) ********
+
+]
+[2023-12-21 14:56:16,002: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-21 14:56:16,002: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-21 14:56:16,002: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-21 14:56:16,002: INFO: common: created directory at: artifacts]
+[2023-12-21 14:56:16,002: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-21 14:56:16,002: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-21 14:56:18,050: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2023-12-21 14:56:18,079: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2023-12-21 14:56:18,079: INFO: main: 
+
+******** Stage :  Data Ingestion -- (Completed) ********
+
+]
+[2023-12-21 14:58:34,213: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-21 14:58:34,213: INFO: main: 
+
+******** Stage :  Data Ingestion -- (Started) ********
+
+]
+[2023-12-21 14:58:34,213: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-21 14:58:34,213: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-21 14:58:34,213: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-21 14:58:34,213: INFO: common: created directory at: artifacts]
+[2023-12-21 14:58:34,213: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-21 14:58:34,213: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-21 14:58:36,216: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2023-12-21 14:58:36,246: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2023-12-21 14:58:36,248: INFO: main: 
+
+******** Stage :  Data Ingestion -- (Completed) ********
+
+]
+[2023-12-21 14:58:47,883: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-21 14:58:47,883: INFO: main: 
+
+******** Stage :  Data Ingestion -- (Started) ********
+
+]
+[2023-12-21 14:58:47,883: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-21 14:58:47,883: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-21 14:58:47,883: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-21 14:58:47,883: INFO: common: created directory at: artifacts]
+[2023-12-21 14:58:47,883: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-21 14:58:47,883: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-21 14:58:49,729: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2023-12-21 14:58:49,729: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2023-12-21 14:58:49,729: INFO: main: 
+
+******** Stage :  Data Ingestion -- (Completed) ********
+
+]
+[2023-12-21 15:02:55,923: INFO: MAIN: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-21 15:02:55,923: INFO: MAIN: 
+
+******** Stage :  Data Ingestion -- (Started) ********
+
+]
+[2023-12-21 15:02:55,923: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-21 15:02:55,923: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-21 15:02:55,923: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-21 15:02:55,923: INFO: common: created directory at: artifacts]
+[2023-12-21 15:02:55,923: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-21 15:02:55,923: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-21 15:02:57,907: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2023-12-21 15:02:57,922: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2023-12-21 15:02:57,922: INFO: MAIN: 
+
+******** Stage :  Data Ingestion -- (Completed) ********
+
+]
+[2023-12-21 15:02:57,922: INFO: MAIN: 
+
+
+===================== PROGRAMME COMPLETED =====================
+
+
+]
+[2023-12-21 15:04:53,551: INFO: MAIN: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-21 15:04:53,551: INFO: MAIN: 
+
+******** Stage :  Data Ingestion --> (Started) ********
+
+]
+[2023-12-21 15:04:53,551: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-21 15:04:53,551: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-21 15:04:53,551: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-21 15:04:53,551: INFO: common: created directory at: artifacts]
+[2023-12-21 15:04:53,551: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-21 15:04:53,551: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-21 15:04:55,491: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2023-12-21 15:04:55,506: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2023-12-21 15:04:55,506: INFO: MAIN: 
+
+******** Stage :  Data Ingestion --> (Completed) ********
+
+]
+[2023-12-21 15:04:55,506: INFO: MAIN: 
+
+
+===================== PROGRAMME COMPLETED =====================
+
+
+]
