@@ -2,6 +2,7 @@ from stroke_risk.constants import *
 from stroke_risk.utils.common import read_yaml, create_directories
 
 from stroke_risk.entity.config_entity import DataIngestionConfig
+from stroke_risk.entity.config_entity import DataPreprocessConfig
 
 
 
@@ -33,3 +34,17 @@ class ConfigurationManager:
         )
 
         return data_ingestion_config
+    
+    def get_data_preprocess_config(self) -> DataPreprocessConfig:
+        config = self.config.data_preprocess
+
+        create_directories([config.root_dir])
+
+        data_preprocess_config = DataPreprocessConfig(
+            root_dir=config.root_dir,
+            data_dir=config.data_dir,
+            dataset_name=config.dataset_name,
+            save_data_file=config.save_data_file 
+        )
+
+        return data_preprocess_config

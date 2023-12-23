@@ -202,3 +202,91 @@
 
 
 ]
+[2023-12-21 19:37:54,028: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-21 19:37:54,031: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-21 19:37:54,034: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-21 19:37:54,037: INFO: common: created directory at: artifacts]
+[2023-12-21 19:44:10,611: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-21 19:44:10,611: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-21 19:44:10,618: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-21 19:44:10,621: INFO: common: created directory at: artifacts]
+[2023-12-21 19:48:35,329: INFO: common: created directory at: artifacts/data_preprocess]
+[2023-12-21 20:23:13,090: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-21 20:56:57,244: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 11:36:49,833: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 13:12:11,798: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 13:27:29,115: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 13:35:24,293: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-23 12:58:19,248: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-23 19:15:48,044: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-23 20:29:06,268: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-23 20:29:06,281: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-23 20:29:06,281: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-23 20:29:06,288: INFO: common: created directory at: artifacts]
+[2023-12-23 20:29:06,290: INFO: common: created directory at: artifacts/data_preprocess]
+[2023-12-23 20:29:06,343: INFO: 1529433164: Data Preprocess Done]
+[2023-12-23 20:29:06,343: INFO: 1529433164: File saved in artifacts/data_preprocess/data.csv]
+[2023-12-23 20:36:13,367: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-23 20:36:13,370: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-23 20:36:13,375: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-23 20:36:13,382: INFO: common: created directory at: artifacts]
+[2023-12-23 20:36:13,384: INFO: common: created directory at: artifacts/data_preprocess]
+[2023-12-23 20:36:13,406: INFO: 2889185664: Datatype Fixed]
+[2023-12-23 20:36:13,420: INFO: 2889185664: Data Substituted]
+[2023-12-23 20:36:13,433: INFO: 2889185664: age-bin and gender-age created]
+[2023-12-23 20:36:13,440: INFO: 2889185664: Null value in bmi imputed]
+[2023-12-23 20:36:13,443: INFO: 2889185664: Unnessary columns deleted]
+[2023-12-23 20:36:13,507: INFO: 2889185664: File saved in artifacts/data_preprocess/data.csv]
+[2023-12-23 22:16:47,667: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-23 22:16:47,667: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Started) ********
+
+]
+[2023-12-23 22:16:47,667: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-23 22:16:47,667: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-23 22:16:47,667: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-23 22:16:47,667: INFO: common: created directory at: artifacts]
+[2023-12-23 22:16:47,667: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-23 22:16:47,667: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-23 22:16:50,568: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2023-12-23 22:16:50,583: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2023-12-23 22:16:50,583: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Completed) ********
+
+]
+[2023-12-23 22:16:50,583: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Started) ********
+
+]
+[2023-12-23 22:16:50,583: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-23 22:16:50,583: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-23 22:16:50,583: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-23 22:16:50,583: INFO: common: created directory at: artifacts]
+[2023-12-23 22:16:50,583: INFO: common: created directory at: artifacts/data_preprocess]
+[2023-12-23 22:16:50,630: INFO: c2_data_preprocess: Datatype Fixed]
+[2023-12-23 22:16:50,630: INFO: c2_data_preprocess: Data Substituted]
+[2023-12-23 22:16:50,630: INFO: c2_data_preprocess: age-bin and gender-age created]
+[2023-12-23 22:16:50,646: INFO: c2_data_preprocess: Null value in bmi imputed]
+[2023-12-23 22:16:50,646: INFO: c2_data_preprocess: Unnessary columns deleted]
+[2023-12-23 22:16:50,661: INFO: c2_data_preprocess: File saved in artifacts/data_preprocess/data.csv]
+[2023-12-23 22:16:50,661: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Completed) ********
+
+]
+[2023-12-23 22:16:50,661: INFO: main: 
+
+
+===================== PROGRAMME COMPLETED =====================
+
+
+]
