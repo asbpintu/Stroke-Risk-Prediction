@@ -290,3 +290,500 @@
 
 
 ]
+[2023-12-23 22:49:48,739: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-23 23:09:12,476: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-23 23:09:44,393: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-23 23:18:44,475: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-23 23:18:49,176: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-23 23:21:19,889: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-23 23:21:24,850: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 12:00:52,542: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 12:00:58,683: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 12:18:26,016: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 12:18:26,029: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 12:18:26,035: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 12:18:26,036: INFO: common: created directory at: artifacts]
+[2023-12-25 12:18:26,037: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 12:18:26,072: INFO: 1839582043: All columns Present in the Dataset]
+[2023-12-25 12:20:48,097: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 12:20:48,097: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 12:20:48,107: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 12:20:48,108: INFO: common: created directory at: artifacts]
+[2023-12-25 12:20:48,110: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 12:20:48,132: INFO: 1280739170: All columns Present in the Dataset]
+[2023-12-25 12:21:36,922: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 12:21:36,923: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 12:21:36,929: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 12:21:36,934: INFO: common: created directory at: artifacts]
+[2023-12-25 12:21:36,937: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 12:21:36,951: INFO: 1280739170: All columns Present in the Dataset]
+[2023-12-25 12:50:56,247: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 12:50:56,256: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 12:50:56,270: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 12:50:56,271: INFO: common: created directory at: artifacts]
+[2023-12-25 12:50:56,273: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 12:50:56,301: INFO: 811450728: All columns Present in the Dataset]
+[2023-12-25 12:51:28,863: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 12:51:28,863: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 12:51:28,874: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 12:51:28,876: INFO: common: created directory at: artifacts]
+[2023-12-25 12:51:28,877: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 12:51:28,890: INFO: 2405230358: All columns Present in the Dataset]
+[2023-12-25 12:51:28,910: INFO: 2405230358: All columns Data-Type  correct]
+[2023-12-25 12:54:01,026: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 12:54:01,029: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 12:54:01,033: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 12:54:01,035: INFO: common: created directory at: artifacts]
+[2023-12-25 12:54:01,040: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 12:54:01,064: INFO: 2405230358: All columns Present in the Dataset]
+[2023-12-25 12:54:01,081: INFO: 2405230358: All columns Data-Type  correct]
+[2023-12-25 12:54:52,779: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 12:54:52,783: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 12:54:52,786: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 12:54:52,786: INFO: common: created directory at: artifacts]
+[2023-12-25 12:54:52,793: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 12:54:52,824: INFO: 1779129615: All columns Present in the Dataset]
+[2023-12-25 12:54:52,850: INFO: 1779129615: All columns Data-Type  correct]
+[2023-12-25 12:57:59,718: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 12:57:59,721: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 12:57:59,726: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 12:57:59,729: INFO: common: created directory at: artifacts]
+[2023-12-25 12:57:59,730: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 12:57:59,750: INFO: 2597961011: All columns Present in the Dataset]
+[2023-12-25 12:57:59,768: INFO: 2597961011: All columns Data-Type  correct]
+[2023-12-25 12:58:44,890: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 12:58:44,896: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 12:58:44,902: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 12:58:44,904: INFO: common: created directory at: artifacts]
+[2023-12-25 12:58:44,905: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 12:58:44,927: INFO: 238969350: All columns Present in the Dataset]
+[2023-12-25 12:58:44,946: INFO: 238969350: All columns Data-Type  correct]
+[2023-12-25 13:06:29,348: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 13:06:29,350: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 13:06:29,357: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 13:06:29,358: INFO: common: created directory at: artifacts]
+[2023-12-25 13:06:29,359: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 13:06:29,380: INFO: 1203503120: category : object]
+[2023-12-25 13:06:29,380: INFO: 1203503120: int64 : int64]
+[2023-12-25 13:06:29,391: INFO: 1203503120: int64 : int64]
+[2023-12-25 13:06:29,393: INFO: 1203503120: int64 : int64]
+[2023-12-25 13:06:29,393: INFO: 1203503120: category : object]
+[2023-12-25 13:06:29,400: INFO: 1203503120: category : object]
+[2023-12-25 13:06:29,402: INFO: 1203503120: category : object]
+[2023-12-25 13:06:29,404: INFO: 1203503120: float64 : float64]
+[2023-12-25 13:06:29,406: INFO: 1203503120: float64 : float64]
+[2023-12-25 13:06:29,408: INFO: 1203503120: category : object]
+[2023-12-25 13:06:29,410: INFO: 1203503120: int64 : int64]
+[2023-12-25 13:08:17,209: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 13:08:17,209: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 13:08:17,218: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 13:08:17,220: INFO: common: created directory at: artifacts]
+[2023-12-25 13:08:17,221: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 13:08:17,251: INFO: 2967629595: gender = category : object]
+[2023-12-25 13:08:17,253: INFO: 2967629595: age = int64 : int64]
+[2023-12-25 13:08:17,255: INFO: 2967629595: hypertension = int64 : int64]
+[2023-12-25 13:08:17,258: INFO: 2967629595: heart_disease = int64 : int64]
+[2023-12-25 13:08:17,259: INFO: 2967629595: ever_married = category : object]
+[2023-12-25 13:08:17,264: INFO: 2967629595: work_type = category : object]
+[2023-12-25 13:08:17,272: INFO: 2967629595: Residence_type = category : object]
+[2023-12-25 13:08:17,274: INFO: 2967629595: avg_glucose_level = float64 : float64]
+[2023-12-25 13:08:17,276: INFO: 2967629595: bmi = float64 : float64]
+[2023-12-25 13:08:17,280: INFO: 2967629595: smoking_status = category : object]
+[2023-12-25 13:08:17,284: INFO: 2967629595: stroke = int64 : int64]
+[2023-12-25 13:11:21,321: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-25 13:11:21,321: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Started) ********
+
+]
+[2023-12-25 13:11:21,321: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 13:11:21,321: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 13:11:21,321: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 13:11:21,321: INFO: common: created directory at: artifacts]
+[2023-12-25 13:11:21,321: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-25 13:11:21,336: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-25 13:11:23,841: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2023-12-25 13:11:23,868: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2023-12-25 13:11:23,868: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Completed) ********
+
+]
+[2023-12-25 13:11:23,868: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Started) ********
+
+]
+[2023-12-25 13:11:23,875: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 13:11:23,876: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 13:11:23,878: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 13:11:23,878: INFO: common: created directory at: artifacts]
+[2023-12-25 13:11:23,878: INFO: common: created directory at: artifacts/data_preprocess]
+[2023-12-25 13:11:23,917: INFO: c2_data_preprocess: Datatype Fixed]
+[2023-12-25 13:11:23,925: INFO: c2_data_preprocess: Data Substituted]
+[2023-12-25 13:11:23,934: INFO: c2_data_preprocess: age-bin and gender-age created]
+[2023-12-25 13:11:23,941: INFO: c2_data_preprocess: Null value in bmi imputed]
+[2023-12-25 13:11:23,942: INFO: c2_data_preprocess: Unnessary columns deleted]
+[2023-12-25 13:11:23,959: INFO: c2_data_preprocess: File saved in artifacts/data_preprocess/data.csv]
+[2023-12-25 13:11:23,966: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Completed) ********
+
+]
+[2023-12-25 13:11:23,967: INFO: main: 
+
+
+===================== PROGRAMME COMPLETED =====================
+
+
+]
+[2023-12-25 13:11:54,317: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 13:11:54,321: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 13:11:54,324: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 13:11:54,326: INFO: common: created directory at: artifacts]
+[2023-12-25 13:11:54,331: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 13:11:54,383: INFO: 2967629595: gender = category : object]
+[2023-12-25 13:11:54,386: INFO: 2967629595: age = int64 : int64]
+[2023-12-25 13:11:54,388: INFO: 2967629595: hypertension = int64 : int64]
+[2023-12-25 13:11:54,390: INFO: 2967629595: heart_disease = int64 : int64]
+[2023-12-25 13:11:54,394: INFO: 2967629595: ever_married = category : object]
+[2023-12-25 13:11:54,395: INFO: 2967629595: work_type = category : object]
+[2023-12-25 13:11:54,397: INFO: 2967629595: Residence_type = category : object]
+[2023-12-25 13:11:54,400: INFO: 2967629595: avg_glucose_level = float64 : float64]
+[2023-12-25 13:11:54,404: INFO: 2967629595: bmi = float64 : float64]
+[2023-12-25 13:11:54,405: INFO: 2967629595: smoking_status = category : object]
+[2023-12-25 13:11:54,408: INFO: 2967629595: stroke = int64 : int64]
+[2023-12-25 13:18:26,458: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-25 13:18:26,458: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Started) ********
+
+]
+[2023-12-25 13:18:26,458: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 13:18:26,458: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 13:18:26,458: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 13:18:26,458: INFO: common: created directory at: artifacts]
+[2023-12-25 13:18:26,458: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-25 13:18:26,458: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-25 13:18:29,303: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2023-12-25 13:18:29,316: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2023-12-25 13:18:29,316: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Completed) ********
+
+]
+[2023-12-25 13:18:29,316: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Started) ********
+
+]
+[2023-12-25 13:18:29,316: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 13:18:29,323: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 13:18:29,325: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 13:18:29,325: INFO: common: created directory at: artifacts]
+[2023-12-25 13:18:29,325: INFO: common: created directory at: artifacts/data_preprocess]
+[2023-12-25 13:18:29,357: INFO: c2_data_preprocess: Datatype Fixed]
+[2023-12-25 13:18:29,357: INFO: c2_data_preprocess: Data Substituted]
+[2023-12-25 13:18:29,366: INFO: c2_data_preprocess: age-bin and gender-age created]
+[2023-12-25 13:18:29,373: INFO: c2_data_preprocess: Null value in bmi imputed]
+[2023-12-25 13:18:29,374: INFO: c2_data_preprocess: Unnessary columns deleted]
+[2023-12-25 13:18:29,391: INFO: c2_data_preprocess: File saved in artifacts/data_preprocess/data.csv]
+[2023-12-25 13:18:29,407: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Completed) ********
+
+]
+[2023-12-25 13:18:29,415: INFO: main: 
+
+
+===================== PROGRAMME COMPLETED =====================
+
+
+]
+[2023-12-25 13:19:24,905: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 13:19:24,909: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 13:19:24,912: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 13:19:24,915: INFO: common: created directory at: artifacts]
+[2023-12-25 13:19:24,917: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 13:19:24,964: INFO: 2967629595: gender = category : object]
+[2023-12-25 13:19:24,967: INFO: 2967629595: age = int64 : int64]
+[2023-12-25 13:19:24,969: INFO: 2967629595: hypertension = int64 : int64]
+[2023-12-25 13:19:24,971: INFO: 2967629595: heart_disease = int64 : int64]
+[2023-12-25 13:19:24,976: INFO: 2967629595: ever_married = category : object]
+[2023-12-25 13:19:24,977: INFO: 2967629595: work_type = category : object]
+[2023-12-25 13:19:24,979: INFO: 2967629595: Residence_type = category : object]
+[2023-12-25 13:19:24,982: INFO: 2967629595: avg_glucose_level = float64 : float64]
+[2023-12-25 13:19:24,984: INFO: 2967629595: bmi = float64 : float64]
+[2023-12-25 13:19:24,986: INFO: 2967629595: smoking_status = category : object]
+[2023-12-25 13:19:24,988: INFO: 2967629595: stroke = int64 : int64]
+[2023-12-25 13:28:23,070: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-25 13:28:23,070: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Started) ********
+
+]
+[2023-12-25 13:28:23,070: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 13:28:23,070: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 13:28:23,070: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 13:28:23,070: INFO: common: created directory at: artifacts]
+[2023-12-25 13:28:23,070: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-25 13:28:23,070: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-25 13:28:25,515: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2023-12-25 13:28:25,544: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2023-12-25 13:28:25,544: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Completed) ********
+
+]
+[2023-12-25 13:28:25,544: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Started) ********
+
+]
+[2023-12-25 13:28:25,544: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 13:28:25,552: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 13:28:25,553: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 13:28:25,553: INFO: common: created directory at: artifacts]
+[2023-12-25 13:28:25,559: INFO: common: created directory at: artifacts/data_preprocess]
+[2023-12-25 13:28:25,602: INFO: c2_data_preprocess: Datatype Fixed]
+[2023-12-25 13:28:25,603: INFO: c2_data_preprocess: Data Substituted]
+[2023-12-25 13:28:25,612: INFO: c2_data_preprocess: age-bin and gender-age created]
+[2023-12-25 13:28:25,618: INFO: c2_data_preprocess: Null value in bmi imputed]
+[2023-12-25 13:28:25,620: INFO: c2_data_preprocess: Unnessary columns deleted]
+[2023-12-25 13:28:25,620: ERROR: main: to_csv() got an unexpected keyword argument 'dtype']
+Traceback (most recent call last):
+  File "C:\Users\asbpi\Desktop\ASB\Data_Science\Projects\MY Projects\Stroke-Risk-Prediction\main.py", line 29, in <module>
+    cal.main()
+  File "c:\users\asbpi\desktop\asb\data_science\projects\my projects\stroke-risk-prediction\src\stroke_risk\pipeline\s2_data_preprocess.py", line 17, in main
+    data_preprocess.preprocess()
+  File "c:\users\asbpi\desktop\asb\data_science\projects\my projects\stroke-risk-prediction\src\stroke_risk\components\c2_data_preprocess.py", line 52, in preprocess
+    data.to_csv(os.path.join(save_data_file),index = False,dtype=dtype_dict)
+TypeError: to_csv() got an unexpected keyword argument 'dtype'
+[2023-12-25 18:46:37,363: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-25 18:46:37,363: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Started) ********
+
+]
+[2023-12-25 18:46:37,365: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 18:46:37,365: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 18:46:37,366: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 18:46:37,366: INFO: common: created directory at: artifacts]
+[2023-12-25 18:46:37,366: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-25 18:46:37,368: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-25 18:46:39,971: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2023-12-25 18:46:39,982: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2023-12-25 18:46:39,983: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Completed) ********
+
+]
+[2023-12-25 18:46:39,983: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Started) ********
+
+]
+[2023-12-25 18:46:39,986: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 18:46:39,987: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 18:46:39,988: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 18:46:39,988: INFO: common: created directory at: artifacts]
+[2023-12-25 18:46:39,988: INFO: common: created directory at: artifacts/data_preprocess]
+[2023-12-25 18:46:40,009: INFO: c2_data_preprocess: Datatype Fixed]
+[2023-12-25 18:46:40,011: INFO: c2_data_preprocess: Data Substituted]
+[2023-12-25 18:46:40,016: INFO: c2_data_preprocess: age-bin and gender-age created]
+[2023-12-25 18:46:40,018: INFO: c2_data_preprocess: Null value in bmi imputed]
+[2023-12-25 18:46:40,019: INFO: c2_data_preprocess: Unnessary columns deleted]
+[2023-12-25 18:46:40,049: INFO: c2_data_preprocess: File saved in artifacts/data_preprocess/data.csv]
+[2023-12-25 18:46:40,050: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Completed) ********
+
+]
+[2023-12-25 18:46:40,050: INFO: main: 
+
+
+===================== PROGRAMME COMPLETED =====================
+
+
+]
+[2023-12-25 18:47:04,717: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 18:47:04,722: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 18:47:04,725: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 18:47:04,729: INFO: common: created directory at: artifacts]
+[2023-12-25 18:47:04,730: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 18:47:04,765: INFO: 2967629595: gender = category : object]
+[2023-12-25 18:47:04,769: INFO: 2967629595: age = int64 : int64]
+[2023-12-25 18:47:04,772: INFO: 2967629595: hypertension = int64 : int64]
+[2023-12-25 18:47:04,775: INFO: 2967629595: heart_disease = int64 : int64]
+[2023-12-25 18:47:04,780: INFO: 2967629595: ever_married = category : object]
+[2023-12-25 18:47:04,782: INFO: 2967629595: work_type = category : object]
+[2023-12-25 18:47:04,786: INFO: 2967629595: Residence_type = category : object]
+[2023-12-25 18:47:04,788: INFO: 2967629595: avg_glucose_level = float64 : float64]
+[2023-12-25 18:47:04,789: INFO: 2967629595: bmi = float64 : float64]
+[2023-12-25 18:47:04,793: INFO: 2967629595: smoking_status = category : object]
+[2023-12-25 18:47:04,795: INFO: 2967629595: stroke = int64 : int64]
+[2023-12-25 18:50:36,240: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 18:50:36,247: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 18:50:36,282: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 18:50:36,287: INFO: common: created directory at: artifacts]
+[2023-12-25 18:50:36,288: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 18:50:36,319: INFO: 2967629595: gender = object : object]
+[2023-12-25 18:50:36,321: INFO: 2967629595: age = int64 : int64]
+[2023-12-25 18:50:36,323: INFO: 2967629595: hypertension = int64 : int64]
+[2023-12-25 18:50:36,326: INFO: 2967629595: heart_disease = int64 : int64]
+[2023-12-25 18:50:36,332: INFO: 2967629595: ever_married = object : object]
+[2023-12-25 18:50:36,334: INFO: 2967629595: work_type = object : object]
+[2023-12-25 18:50:36,339: INFO: 2967629595: Residence_type = object : object]
+[2023-12-25 18:50:36,343: INFO: 2967629595: avg_glucose_level = float64 : float64]
+[2023-12-25 18:50:36,347: INFO: 2967629595: bmi = float64 : float64]
+[2023-12-25 18:50:36,349: INFO: 2967629595: smoking_status = object : object]
+[2023-12-25 18:50:36,351: INFO: 2967629595: stroke = int64 : int64]
+[2023-12-25 19:17:27,619: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 19:17:32,413: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 19:21:20,504: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 19:21:20,507: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 19:21:20,511: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 19:21:20,516: INFO: common: created directory at: artifacts]
+[2023-12-25 19:21:20,518: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 19:21:20,556: INFO: 2967629595: gender = object : object]
+[2023-12-25 19:21:20,562: INFO: 2967629595: age = int64 : int64]
+[2023-12-25 19:21:20,567: INFO: 2967629595: hypertension = int64 : int64]
+[2023-12-25 19:21:20,573: INFO: 2967629595: heart_disease = int64 : int64]
+[2023-12-25 19:21:20,575: INFO: 2967629595: ever_married = object : object]
+[2023-12-25 19:21:20,580: INFO: 2967629595: work_type = object : object]
+[2023-12-25 19:21:20,582: INFO: 2967629595: Residence_type = object : object]
+[2023-12-25 19:21:20,586: INFO: 2967629595: avg_glucose_level = float64 : float64]
+[2023-12-25 19:21:20,588: INFO: 2967629595: bmi = float64 : float64]
+[2023-12-25 19:21:20,589: INFO: 2967629595: smoking_status = object : object]
+[2023-12-25 19:21:20,590: INFO: 2967629595: stroke = int64 : int64]
+[2023-12-25 19:22:12,004: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 19:22:12,007: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 19:22:12,011: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 19:22:12,016: INFO: common: created directory at: artifacts]
+[2023-12-25 19:22:12,018: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 20:22:49,262: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 20:22:49,264: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 20:22:49,272: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 20:22:49,273: INFO: common: created directory at: artifacts]
+[2023-12-25 20:22:49,274: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 20:22:49,312: INFO: 2033076008: All Validation Passed]
+[2023-12-25 20:23:46,180: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 20:23:46,186: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 20:23:46,188: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 20:23:46,190: INFO: common: created directory at: artifacts]
+[2023-12-25 20:23:46,191: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 20:23:46,227: INFO: 2033076008: All Validation Passed]
+[2023-12-25 20:24:52,263: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 20:24:52,266: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 20:24:52,280: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 20:24:52,281: INFO: common: created directory at: artifacts]
+[2023-12-25 20:24:52,284: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 20:24:52,326: INFO: 2033076008: stroke = int: int64]
+[2023-12-25 20:24:52,339: INFO: 2033076008: Validation Failed]
+[2023-12-25 20:26:26,622: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 20:26:26,626: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 20:26:26,634: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 20:26:26,635: INFO: common: created directory at: artifacts]
+[2023-12-25 20:26:26,636: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 20:26:26,665: INFO: 2033076008: gender = hhh: object]
+[2023-12-25 20:26:26,675: INFO: 2033076008: stroke = int: int64]
+[2023-12-25 20:26:26,683: INFO: 2033076008: Validation Failed]
+[2023-12-25 20:27:04,370: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 20:27:04,374: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 20:27:04,378: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 20:27:04,379: INFO: common: created directory at: artifacts]
+[2023-12-25 20:27:04,381: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 20:27:04,437: INFO: 2033076008: All Validation Passed]
+[2023-12-25 20:49:21,489: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-25 20:49:21,489: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Started) ********
+
+]
+[2023-12-25 20:49:21,492: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 20:49:21,492: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 20:49:21,493: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 20:49:21,494: INFO: common: created directory at: artifacts]
+[2023-12-25 20:49:21,494: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-25 20:49:21,495: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-25 20:49:23,717: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2023-12-25 20:49:23,729: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2023-12-25 20:49:23,729: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Completed) ********
+
+]
+[2023-12-25 20:49:23,730: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Started) ********
+
+]
+[2023-12-25 20:49:23,731: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 20:49:23,732: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 20:49:23,733: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 20:49:23,734: INFO: common: created directory at: artifacts]
+[2023-12-25 20:49:23,734: INFO: common: created directory at: artifacts/data_preprocess]
+[2023-12-25 20:49:23,755: INFO: c2_data_preprocess: Datatype Fixed]
+[2023-12-25 20:49:23,758: INFO: c2_data_preprocess: Data Substituted]
+[2023-12-25 20:49:23,762: INFO: c2_data_preprocess: age-bin and gender-age created]
+[2023-12-25 20:49:23,764: INFO: c2_data_preprocess: Null value in bmi imputed]
+[2023-12-25 20:49:23,764: INFO: c2_data_preprocess: Unnessary columns deleted]
+[2023-12-25 20:49:23,796: INFO: c2_data_preprocess: File saved in artifacts/data_preprocess/data.csv]
+[2023-12-25 20:49:23,797: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Completed) ********
+
+]
+[2023-12-25 20:49:23,797: INFO: main: 
+
+******** Stage :  Data Validation --> (Started) ********
+
+]
+[2023-12-25 20:49:23,799: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-25 20:49:23,800: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-25 20:49:23,800: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-25 20:49:23,802: INFO: common: created directory at: artifacts]
+[2023-12-25 20:49:23,802: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-25 20:49:23,830: INFO: c3_data_validation: All Validation Passed]
+[2023-12-25 20:49:23,831: INFO: main: 
+
+******** Stage :  Data Validation --> (Completed) ********
+
+]
+[2023-12-25 20:49:23,831: INFO: main: 
+
+
+===================== PROGRAMME COMPLETED =====================
+
+
+]

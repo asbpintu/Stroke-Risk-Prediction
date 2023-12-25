@@ -13,3 +13,9 @@ data_preprocess:
   data_dir: artifacts/data_ingestion
   dataset_name: healthcare-dataset-stroke-data.csv
   save_data_file: artifacts/data_preprocess/data.csv
+
+
+data_validation:
+  root_dir: artifacts/data_validation
+  data_dir: artifacts/data_preprocess/data.csv
+  status_file: artifacts/data_validation/status.txt

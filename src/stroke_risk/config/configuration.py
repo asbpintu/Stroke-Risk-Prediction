@@ -3,6 +3,7 @@ from stroke_risk.utils.common import read_yaml, create_directories
 
 from stroke_risk.entity.config_entity import DataIngestionConfig
 from stroke_risk.entity.config_entity import DataPreprocessConfig
+from stroke_risk.entity.config_entity import DataValidationConfig
 
 
 
@@ -48,3 +49,18 @@ class ConfigurationManager:
         )
 
         return data_preprocess_config
+    
+    def get_data_validation_config(self) -> DataValidationConfig:
+        config = self.config.data_validation
+        schema = self.schema.COLUMNS
+
+        create_directories([config.root_dir])
+
+        data_validation_config = DataValidationConfig(
+            root_dir=config.root_dir,
+            status_file=config.status_file,
+            data_dir = config.data_dir,
+            all_schema=schema,
+        )
+
+        return data_validation_config

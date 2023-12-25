@@ -22,11 +22,11 @@ class DataPreprocess:
         data = pd.read_csv(Path(data_dir,dataset_name))
 
         data.age = data.age.astype(np.int64)
+        data = data[data['gender'] != 'Other']
         cata_col = ['gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status']
         data[cata_col] = data[cata_col].astype('category')
         logger.info('Datatype Fixed')
 
-        data = data[data['gender'] != 'Other']
         data['smoking_status'] = data['smoking_status'].replace('Unknown', 'formerly smoked')
         data['work_type'] = data['work_type'].replace('children', 'Never_worked')
         logger.info('Data Substituted')
@@ -49,5 +49,9 @@ class DataPreprocess:
         logger.info('Unnessary columns deleted')
 
         data.to_csv(os.path.join(save_data_file),index = False)
+        data = pd.read_csv(os.path.join(save_data_file))
+        cata_col = ['gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status']
+        data[cata_col] = data[cata_col].astype('category')
+
 
         logger.info(f'File saved in {save_data_file}')

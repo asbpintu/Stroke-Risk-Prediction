@@ -16,3 +16,11 @@ class DataPreprocessConfig:
     data_dir: Path
     dataset_name: Path
     save_data_file: Path
+
+
+@dataclass(frozen=True)
+class DataValidationConfig:
+    root_dir: Path
+    data_dir: Path
+    status_file: str
+    all_schema: dict
