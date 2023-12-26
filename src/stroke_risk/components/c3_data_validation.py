@@ -1,5 +1,6 @@
 import pandas as pd
 from stroke_risk import logger
+import sys
 
 from stroke_risk.entity.config_entity import DataValidationConfig
 
@@ -25,6 +26,8 @@ class DataValiadtion:
                     validation_status = False
                     with open(self.config.status_file, 'w') as f:
                         f.write(f"COLUMNS: {validation_status}\n")
+                    logger.warning(f'\n\n\tColumns Missing - [{col}] : Please check the Dataset\n')
+                    sys.exit(1)
                 else:
                     validation_status = True
                     with open(self.config.status_file, 'w') as f:
@@ -47,7 +50,7 @@ class DataValiadtion:
                     with open(self.config.status_file, 'a') as f:
                         f.write(f"{col}: {validation_status}\n")
                     
-                    logger.info(f'{col} = {all_schema[col]}: {data[col].dtype.name}')
+                    logger.error(f'{col} = {all_schema[col]}: {data[col].dtype.name}')
                 else:
                     validation_status = True
                     with open(self.config.status_file, 'a') as f:
@@ -67,6 +70,7 @@ class DataValiadtion:
             if all(status.values()):
                 logger.info('All Validation Passed')
             else:
-                logger.info('Validation Failed')
+                logger.info('\n\n\tValidation Failed\n')
+                sys.exit(1)
         except Exception as e:
             raise e
