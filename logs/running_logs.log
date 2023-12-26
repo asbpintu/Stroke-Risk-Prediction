@@ -787,3 +787,156 @@ TypeError: to_csv() got an unexpected keyword argument 'dtype'
 
 
 ]
+[2023-12-26 10:44:07,629: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-26 10:44:13,465: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-26 10:46:49,697: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-26 10:46:54,579: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-26 12:51:58,081: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-26 12:51:58,089: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-26 12:51:58,097: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-26 12:51:58,097: INFO: common: created directory at: artifacts]
+[2023-12-26 12:51:58,097: INFO: common: created directory at: artifact/data_transformation]
+[2023-12-26 12:51:58,147: INFO: 1838401626: Splited data into training and test sets]
+[2023-12-26 12:51:58,147: INFO: 1838401626: (3799, 11)]
+[2023-12-26 12:51:58,155: INFO: 1838401626: (1267, 11)]
+[2023-12-26 12:52:30,319: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-26 12:52:30,327: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-26 12:52:30,329: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-26 12:52:30,336: INFO: common: created directory at: artifacts]
+[2023-12-26 12:52:30,336: INFO: common: created directory at: artifact/data_transformation]
+[2023-12-26 12:52:30,363: INFO: 336546707: Splited data into training and test sets]
+[2023-12-26 12:52:30,363: INFO: 336546707: (4052, 11)]
+[2023-12-26 12:52:30,363: INFO: 336546707: (1014, 11)]
+[2023-12-26 12:54:02,960: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-26 12:54:02,965: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-26 12:54:02,969: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-26 12:54:02,969: INFO: common: created directory at: artifacts]
+[2023-12-26 12:54:02,969: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-26 12:54:03,003: INFO: 336546707: Splited data into training and test sets]
+[2023-12-26 12:54:03,003: INFO: 336546707: (4052, 11)]
+[2023-12-26 12:54:03,011: INFO: 336546707: (1014, 11)]
+[2023-12-26 12:56:46,329: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-26 12:56:46,332: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-26 12:56:46,332: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-26 12:56:46,342: INFO: common: created directory at: artifacts]
+[2023-12-26 12:56:46,342: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-26 12:56:46,373: INFO: 691578939: Splited data into training and test sets]
+[2023-12-26 12:56:46,373: INFO: 691578939: train data shape - ((4052, 11))]
+[2023-12-26 12:56:46,373: INFO: 691578939: test data shape - ((1014, 11))]
+[2023-12-26 12:57:04,733: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-26 12:57:04,733: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-26 12:57:04,740: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-26 12:57:04,746: INFO: common: created directory at: artifacts]
+[2023-12-26 12:57:04,746: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-26 12:57:04,781: INFO: 2744682122: Splited data into training and test sets]
+[2023-12-26 12:57:04,781: INFO: 2744682122: train data shape - (4052, 11)]
+[2023-12-26 12:57:04,785: INFO: 2744682122: test data shape - (1014, 11)]
+[2023-12-26 14:17:22,447: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-26 14:17:22,455: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-26 14:17:22,471: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-26 14:17:22,471: INFO: common: created directory at: artifacts]
+[2023-12-26 14:17:22,471: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-26 14:18:43,128: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-26 14:18:43,131: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-26 14:18:43,136: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-26 14:18:43,136: INFO: common: created directory at: artifacts]
+[2023-12-26 14:18:43,144: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-26 14:19:17,640: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-26 14:19:17,640: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-26 14:19:17,648: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-26 14:19:17,648: INFO: common: created directory at: artifacts]
+[2023-12-26 14:19:17,648: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-26 14:19:17,685: INFO: 2359033959: LabelEncoder & OnehotEncoder applied to Categorical Columns]
+[2023-12-26 14:19:17,694: INFO: 2359033959: Encoded data saved in artifacts/data_transformation/data.csv]
+[2023-12-26 14:19:17,787: INFO: 2359033959: Splited data into training and test sets]
+[2023-12-26 14:19:17,787: INFO: 2359033959: train data shape - (4052, 16)]
+[2023-12-26 14:19:17,787: INFO: 2359033959: test data shape - (1014, 16)]
+[2023-12-26 14:44:39,102: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2023-12-26 14:44:39,102: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Started) ********
+
+]
+[2023-12-26 14:44:39,102: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-26 14:44:39,102: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-26 14:44:39,106: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-26 14:44:39,106: INFO: common: created directory at: artifacts]
+[2023-12-26 14:44:39,106: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-26 14:44:39,106: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-26 14:44:41,556: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2023-12-26 14:44:41,577: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2023-12-26 14:44:41,577: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Completed) ********
+
+]
+[2023-12-26 14:44:41,577: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Started) ********
+
+]
+[2023-12-26 14:44:41,577: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-26 14:44:41,577: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-26 14:44:41,577: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-26 14:44:41,577: INFO: common: created directory at: artifacts]
+[2023-12-26 14:44:41,577: INFO: common: created directory at: artifacts/data_preprocess]
+[2023-12-26 14:44:41,607: INFO: c2_data_preprocess: Datatype Fixed]
+[2023-12-26 14:44:41,607: INFO: c2_data_preprocess: Data Substituted]
+[2023-12-26 14:44:41,618: INFO: c2_data_preprocess: age-bin and gender-age created]
+[2023-12-26 14:44:41,626: INFO: c2_data_preprocess: Null value in bmi imputed]
+[2023-12-26 14:44:41,626: INFO: c2_data_preprocess: Unnessary columns deleted]
+[2023-12-26 14:44:41,656: INFO: c2_data_preprocess: File saved in artifacts/data_preprocess/data.csv]
+[2023-12-26 14:44:41,656: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Completed) ********
+
+]
+[2023-12-26 14:44:41,656: INFO: main: 
+
+******** Stage :  Data Validation --> (Started) ********
+
+]
+[2023-12-26 14:44:41,656: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-26 14:44:41,656: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-26 14:44:41,656: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-26 14:44:41,656: INFO: common: created directory at: artifacts]
+[2023-12-26 14:44:41,667: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-26 14:44:41,697: INFO: c3_data_validation: All Validation Passed]
+[2023-12-26 14:44:41,697: INFO: main: 
+
+******** Stage :  Data Validation --> (Completed) ********
+
+]
+[2023-12-26 14:44:41,698: INFO: main: 
+
+******** Stage :  Data Transformation --> (Started) ********
+
+]
+[2023-12-26 14:44:41,698: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-26 14:44:41,698: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-26 14:44:41,698: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-26 14:44:41,698: INFO: common: created directory at: artifacts]
+[2023-12-26 14:44:41,698: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-26 14:44:41,730: INFO: c4_data_transformation: LabelEncoder & OnehotEncoder applied to Categorical Columns]
+[2023-12-26 14:44:41,730: INFO: c4_data_transformation: Encoded data saved in artifacts/data_transformation/data.csv]
+[2023-12-26 14:44:41,771: INFO: c4_data_transformation: Splited data into training and test sets]
+[2023-12-26 14:44:41,776: INFO: c4_data_transformation: train data shape - (4052, 16)]
+[2023-12-26 14:44:41,776: INFO: c4_data_transformation: test data shape - (1014, 16)]
+[2023-12-26 14:44:41,776: INFO: main: 
+
+******** Stage :  Data Transformation --> (Completed) ********
+
+]
+[2023-12-26 14:44:41,777: INFO: main: 
+
+
+===================== PROGRAMME COMPLETED =====================
+
+
+]

@@ -4,6 +4,7 @@ from stroke_risk.utils.common import read_yaml, create_directories
 from stroke_risk.entity.config_entity import DataIngestionConfig
 from stroke_risk.entity.config_entity import DataPreprocessConfig
 from stroke_risk.entity.config_entity import DataValidationConfig
+from stroke_risk.entity.config_entity import DataTransformationConfig
 
 
 
@@ -64,3 +65,15 @@ class ConfigurationManager:
         )
 
         return data_validation_config
+    
+    def get_data_transformation_config(self) -> DataTransformationConfig:
+        config = self.config.data_transformation
+
+        create_directories([config.root_dir])
+
+        data_transformation_config = DataTransformationConfig(
+            root_dir=config.root_dir,
+            data_file=config.data_file,
+        )
+
+        return data_transformation_config
