@@ -10,3 +10,6 @@ COLUMNS:
   bmi: float64 
   smoking_status: object
   stroke: int64
+
+TARGET_COLUMN:
+  name: stroke

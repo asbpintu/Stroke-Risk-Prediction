@@ -5,6 +5,7 @@ from stroke_risk.entity.config_entity import DataIngestionConfig
 from stroke_risk.entity.config_entity import DataPreprocessConfig
 from stroke_risk.entity.config_entity import DataValidationConfig
 from stroke_risk.entity.config_entity import DataTransformationConfig
+from stroke_risk.entity.config_entity import ModelTrainingConfig
 
 
 
@@ -77,3 +78,24 @@ class ConfigurationManager:
         )
 
         return data_transformation_config
+    
+    def get_model_training_config(self) -> ModelTrainingConfig:
+        config = self.config.model_training
+        params = self.params.RandomForestClassifier
+        schema =  self.schema.TARGET_COLUMN
+
+        create_directories([config.root_dir])
+
+        model_training_config = ModelTrainingConfig(
+            root_dir=config.root_dir,
+            train_data_path = config.train_data_path,
+            model_name = config.model_name,
+            n_estimators = params.n_estimators,
+            criterion = params.criterion,
+            max_depth = params.max_depth,
+            min_samples_split = params.min_samples_split,
+            min_samples_leaf = params.min_samples_leaf,
+            target_column = schema.name
+        )
+
+        return model_training_config

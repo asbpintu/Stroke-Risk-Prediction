@@ -1,1 +1,6 @@
-key: value
+RandomForestClassifier:
+  n_estimators: 100           # Number of trees in the forest
+  criterion: gini             # Criterion for splitting nodes ('gini' or 'entropy')
+  max_depth: 5                # Maximum depth of the tree. None means unlimited depth.
+  min_samples_split: 2        # Minimum number of samples required to split an internal node
+  min_samples_leaf: 1         # Minimum number of samples required to be at a leaf node
