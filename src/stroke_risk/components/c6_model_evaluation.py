@@ -10,13 +10,17 @@ import joblib
 from stroke_risk.entity.config_entity import ModelEvaluationConfig
 from stroke_risk.utils.common import save_json
 from pathlib import Path
+from stroke_risk import logger
 
-from stroke_risk.config.set_env_variables import my_mlflow_uri
 
-os.environ["MLFLOW_TRACKING_URI"] = my_mlflow_uri.my_uri()['url']
-os.environ["MLFLOW_TRACKING_USERNAME"] = my_mlflow_uri.my_uri()['user']
-os.environ["MLFLOW_TRACKING_PASSWORD"] = my_mlflow_uri.my_uri()['passwd']
+try:
+    from stroke_risk.config.set_env_variables import my_mlflow_uri
 
+    os.environ["MLFLOW_TRACKING_URI"] = my_mlflow_uri.my_uri()['url']
+    os.environ["MLFLOW_TRACKING_USERNAME"] = my_mlflow_uri.my_uri()['user']
+    os.environ["MLFLOW_TRACKING_PASSWORD"] = my_mlflow_uri.my_uri()['passwd']
+except:
+    logger.info('ENV Variables Not Found for MLFlow tracking')
 
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
