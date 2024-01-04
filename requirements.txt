@@ -3,6 +3,7 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+imbalanced-learn
 joblib
 pyYAML
 types-PyYAML
