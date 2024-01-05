@@ -14562,3 +14562,372 @@ KeyError: 1
 
 
 ]
+[2024-01-05 20:07:27,657: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2024-01-05 20:07:27,657: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Started) ********
+
+]
+[2024-01-05 20:07:27,665: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:07:27,667: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:07:27,667: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:07:27,667: INFO: common: created directory at: artifacts]
+[2024-01-05 20:07:27,667: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-05 20:07:27,667: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-05 20:07:29,693: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2024-01-05 20:07:29,704: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2024-01-05 20:07:29,704: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Completed) ********
+
+]
+[2024-01-05 20:07:29,705: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Started) ********
+
+]
+[2024-01-05 20:07:29,707: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:07:29,708: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:07:29,710: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:07:29,711: INFO: common: created directory at: artifacts]
+[2024-01-05 20:07:29,711: INFO: common: created directory at: artifacts/data_preprocess]
+[2024-01-05 20:07:29,730: INFO: c2_data_preprocess: Datatype Fixed]
+[2024-01-05 20:07:29,733: INFO: c2_data_preprocess: Data Substituted]
+[2024-01-05 20:07:29,737: INFO: c2_data_preprocess: age-bin and gender-age created]
+[2024-01-05 20:07:29,739: INFO: c2_data_preprocess: Null value in bmi imputed]
+[2024-01-05 20:07:29,740: INFO: c2_data_preprocess: Unnessary columns deleted]
+[2024-01-05 20:07:29,773: INFO: c2_data_preprocess: File saved in artifacts/data_preprocess/data.csv]
+[2024-01-05 20:07:29,774: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Completed) ********
+
+]
+[2024-01-05 20:07:29,774: INFO: main: 
+
+******** Stage :  Data Validation --> (Started) ********
+
+]
+[2024-01-05 20:07:29,776: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:07:29,778: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:07:29,779: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:07:29,780: INFO: common: created directory at: artifacts]
+[2024-01-05 20:07:29,780: INFO: common: created directory at: artifacts/data_validation]
+[2024-01-05 20:07:29,806: INFO: c3_data_validation: All Validation Passed]
+[2024-01-05 20:07:29,807: INFO: main: 
+
+******** Stage :  Data Validation --> (Completed) ********
+
+]
+[2024-01-05 20:07:29,807: INFO: main: 
+
+******** Stage :  Data Transformation --> (Started) ********
+
+]
+[2024-01-05 20:07:29,809: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:07:29,811: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:07:29,813: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:07:29,813: INFO: common: created directory at: artifacts]
+[2024-01-05 20:07:29,814: INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-05 20:07:29,840: INFO: c4_data_transformation: LabelEncoder & OnehotEncoder applied to Categorical Columns]
+[2024-01-05 20:07:29,840: INFO: c4_data_transformation: Encoded data saved in artifacts/data_transformation/data.csv]
+[2024-01-05 20:07:29,888: INFO: c4_data_transformation: Splited data into training and test sets]
+[2024-01-05 20:07:29,888: INFO: c4_data_transformation: train data shape - (4052, 16)]
+[2024-01-05 20:07:29,888: INFO: c4_data_transformation: test data shape - (1014, 16)]
+[2024-01-05 20:07:29,888: INFO: main: 
+
+******** Stage :  Data Transformation --> (Completed) ********
+
+]
+[2024-01-05 20:07:29,888: INFO: main: 
+
+******** Stage :  Model Training --> (Started) ********
+
+]
+[2024-01-05 20:07:29,888: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:07:29,888: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:07:29,897: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:07:29,897: INFO: common: created directory at: artifacts]
+[2024-01-05 20:07:29,898: INFO: common: created directory at: artifacts/model_training]
+[2024-01-05 20:07:35,131: INFO: common: created directory at: model]
+[2024-01-05 20:07:35,379: INFO: c5_model_training: Model Trained]
+[2024-01-05 20:07:35,379: INFO: c5_model_training: Model saved at model/model.joblib]
+[2024-01-05 20:07:35,379: INFO: main: 
+
+******** Stage :  Model Training --> (Completed) ********
+
+]
+[2024-01-05 20:07:35,379: INFO: main: 
+
+******** Stage :  Model Evaluation --> (Started) ********
+
+]
+[2024-01-05 20:07:35,379: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:07:35,379: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:07:35,379: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:07:35,379: INFO: common: created directory at: artifacts]
+[2024-01-05 20:07:35,379: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-01-05 20:07:36,855: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-01-05 20:07:59,230: INFO: main: 
+
+******** Stage :  Model Evaluation --> (Completed) ********
+
+]
+[2024-01-05 20:07:59,230: INFO: main: 
+
+
+===================== PROGRAMME COMPLETED =====================
+
+
+]
+[2024-01-05 20:08:09,991: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2024-01-05 20:08:09,991: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Started) ********
+
+]
+[2024-01-05 20:08:09,991: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:08:09,991: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:08:09,991: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:08:09,991: INFO: common: created directory at: artifacts]
+[2024-01-05 20:08:09,991: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-05 20:08:09,991: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-05 20:08:11,929: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2024-01-05 20:08:11,929: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2024-01-05 20:08:11,929: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Completed) ********
+
+]
+[2024-01-05 20:08:11,929: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Started) ********
+
+]
+[2024-01-05 20:08:11,944: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:08:11,944: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:08:11,944: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:08:11,944: INFO: common: created directory at: artifacts]
+[2024-01-05 20:08:11,944: INFO: common: created directory at: artifacts/data_preprocess]
+[2024-01-05 20:08:11,961: INFO: c2_data_preprocess: Datatype Fixed]
+[2024-01-05 20:08:11,961: INFO: c2_data_preprocess: Data Substituted]
+[2024-01-05 20:08:11,961: INFO: c2_data_preprocess: age-bin and gender-age created]
+[2024-01-05 20:08:11,976: INFO: c2_data_preprocess: Null value in bmi imputed]
+[2024-01-05 20:08:11,976: INFO: c2_data_preprocess: Unnessary columns deleted]
+[2024-01-05 20:08:12,007: INFO: c2_data_preprocess: File saved in artifacts/data_preprocess/data.csv]
+[2024-01-05 20:08:12,007: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Completed) ********
+
+]
+[2024-01-05 20:08:12,007: INFO: main: 
+
+******** Stage :  Data Validation --> (Started) ********
+
+]
+[2024-01-05 20:08:12,007: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:08:12,007: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:08:12,007: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:08:12,007: INFO: common: created directory at: artifacts]
+[2024-01-05 20:08:12,007: INFO: common: created directory at: artifacts/data_validation]
+[2024-01-05 20:08:12,039: INFO: c3_data_validation: All Validation Passed]
+[2024-01-05 20:08:12,039: INFO: main: 
+
+******** Stage :  Data Validation --> (Completed) ********
+
+]
+[2024-01-05 20:08:12,039: INFO: main: 
+
+******** Stage :  Data Transformation --> (Started) ********
+
+]
+[2024-01-05 20:08:12,039: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:08:12,039: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:08:12,039: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:08:12,039: INFO: common: created directory at: artifacts]
+[2024-01-05 20:08:12,039: INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-05 20:08:12,070: INFO: c4_data_transformation: LabelEncoder & OnehotEncoder applied to Categorical Columns]
+[2024-01-05 20:08:12,070: INFO: c4_data_transformation: Encoded data saved in artifacts/data_transformation/data.csv]
+[2024-01-05 20:08:12,117: INFO: c4_data_transformation: Splited data into training and test sets]
+[2024-01-05 20:08:12,117: INFO: c4_data_transformation: train data shape - (4052, 16)]
+[2024-01-05 20:08:12,117: INFO: c4_data_transformation: test data shape - (1014, 16)]
+[2024-01-05 20:08:12,117: INFO: main: 
+
+******** Stage :  Data Transformation --> (Completed) ********
+
+]
+[2024-01-05 20:08:12,117: INFO: main: 
+
+******** Stage :  Model Training --> (Started) ********
+
+]
+[2024-01-05 20:08:12,117: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:08:12,117: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:08:12,117: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:08:12,117: INFO: common: created directory at: artifacts]
+[2024-01-05 20:08:12,117: INFO: common: created directory at: artifacts/model_training]
+[2024-01-05 20:08:16,011: INFO: common: created directory at: model]
+[2024-01-05 20:08:16,167: INFO: c5_model_training: Model Trained]
+[2024-01-05 20:08:16,167: INFO: c5_model_training: Model saved at model/model.joblib]
+[2024-01-05 20:08:16,183: INFO: main: 
+
+******** Stage :  Model Training --> (Completed) ********
+
+]
+[2024-01-05 20:08:16,183: INFO: main: 
+
+******** Stage :  Model Evaluation --> (Started) ********
+
+]
+[2024-01-05 20:08:16,183: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:08:16,183: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:08:16,183: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:08:16,183: INFO: common: created directory at: artifacts]
+[2024-01-05 20:08:16,183: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-01-05 20:08:17,357: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-01-05 20:08:38,273: INFO: main: 
+
+******** Stage :  Model Evaluation --> (Completed) ********
+
+]
+[2024-01-05 20:08:38,273: INFO: main: 
+
+
+===================== PROGRAMME COMPLETED =====================
+
+
+]
+[2024-01-05 20:08:47,175: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2024-01-05 20:08:47,175: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Started) ********
+
+]
+[2024-01-05 20:08:47,175: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:08:47,175: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:08:47,175: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:08:47,175: INFO: common: created directory at: artifacts]
+[2024-01-05 20:08:47,175: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-05 20:08:47,175: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-05 20:08:49,131: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2024-01-05 20:08:49,131: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2024-01-05 20:08:49,131: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Completed) ********
+
+]
+[2024-01-05 20:08:49,131: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Started) ********
+
+]
+[2024-01-05 20:08:49,146: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:08:49,146: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:08:49,146: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:08:49,146: INFO: common: created directory at: artifacts]
+[2024-01-05 20:08:49,146: INFO: common: created directory at: artifacts/data_preprocess]
+[2024-01-05 20:08:49,161: INFO: c2_data_preprocess: Datatype Fixed]
+[2024-01-05 20:08:49,161: INFO: c2_data_preprocess: Data Substituted]
+[2024-01-05 20:08:49,161: INFO: c2_data_preprocess: age-bin and gender-age created]
+[2024-01-05 20:08:49,177: INFO: c2_data_preprocess: Null value in bmi imputed]
+[2024-01-05 20:08:49,177: INFO: c2_data_preprocess: Unnessary columns deleted]
+[2024-01-05 20:08:49,208: INFO: c2_data_preprocess: File saved in artifacts/data_preprocess/data.csv]
+[2024-01-05 20:08:49,208: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Completed) ********
+
+]
+[2024-01-05 20:08:49,208: INFO: main: 
+
+******** Stage :  Data Validation --> (Started) ********
+
+]
+[2024-01-05 20:08:49,208: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:08:49,208: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:08:49,208: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:08:49,208: INFO: common: created directory at: artifacts]
+[2024-01-05 20:08:49,208: INFO: common: created directory at: artifacts/data_validation]
+[2024-01-05 20:08:49,241: INFO: c3_data_validation: All Validation Passed]
+[2024-01-05 20:08:49,241: INFO: main: 
+
+******** Stage :  Data Validation --> (Completed) ********
+
+]
+[2024-01-05 20:08:49,241: INFO: main: 
+
+******** Stage :  Data Transformation --> (Started) ********
+
+]
+[2024-01-05 20:08:49,241: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:08:49,241: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:08:49,241: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:08:49,241: INFO: common: created directory at: artifacts]
+[2024-01-05 20:08:49,241: INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-05 20:08:49,271: INFO: c4_data_transformation: LabelEncoder & OnehotEncoder applied to Categorical Columns]
+[2024-01-05 20:08:49,271: INFO: c4_data_transformation: Encoded data saved in artifacts/data_transformation/data.csv]
+[2024-01-05 20:08:49,318: INFO: c4_data_transformation: Splited data into training and test sets]
+[2024-01-05 20:08:49,318: INFO: c4_data_transformation: train data shape - (4052, 16)]
+[2024-01-05 20:08:49,318: INFO: c4_data_transformation: test data shape - (1014, 16)]
+[2024-01-05 20:08:49,318: INFO: main: 
+
+******** Stage :  Data Transformation --> (Completed) ********
+
+]
+[2024-01-05 20:08:49,318: INFO: main: 
+
+******** Stage :  Model Training --> (Started) ********
+
+]
+[2024-01-05 20:08:49,334: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:08:49,334: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:08:49,334: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:08:49,334: INFO: common: created directory at: artifacts]
+[2024-01-05 20:08:49,334: INFO: common: created directory at: artifacts/model_training]
+[2024-01-05 20:08:53,210: INFO: common: created directory at: model]
+[2024-01-05 20:08:53,383: INFO: c5_model_training: Model Trained]
+[2024-01-05 20:08:53,383: INFO: c5_model_training: Model saved at model/model.joblib]
+[2024-01-05 20:08:53,383: INFO: main: 
+
+******** Stage :  Model Training --> (Completed) ********
+
+]
+[2024-01-05 20:08:53,383: INFO: main: 
+
+******** Stage :  Model Evaluation --> (Started) ********
+
+]
+[2024-01-05 20:08:53,399: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-05 20:08:53,399: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-05 20:08:53,399: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-05 20:08:53,399: INFO: common: created directory at: artifacts]
+[2024-01-05 20:08:53,399: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-01-05 20:08:54,729: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-01-05 20:09:17,139: INFO: main: 
+
+******** Stage :  Model Evaluation --> (Completed) ********
+
+]
+[2024-01-05 20:09:17,139: INFO: main: 
+
+
+===================== PROGRAMME COMPLETED =====================
+
+
+]
