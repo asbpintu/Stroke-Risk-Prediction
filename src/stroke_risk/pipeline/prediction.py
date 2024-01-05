@@ -69,10 +69,15 @@ class PredictionFromData:
         model = joblib.load(Path('model\model.joblib'))
         result = model.predict(final_data)
         prob = model.predict_proba(final_data)
+        prob = round(prob[0][1]*100, 1)
+
+        color = "black"
 
         if result == 0:
-            prediction_value = "You don't have a Brain Stroke Risk"
-            return prediction_value , prob
+            prediction_value = "You are not at risk of a Brain-Stroke."
+            color = "green"
+            return prediction_value , f'{prob}%', color
         else:
-            prediction_value = "You have a Brain Stroke Risk"
-            return prediction_value , prob
+            prediction_value = "You are at risk of a Brain-Stroke."
+            color = "red"
+            return prediction_value , f'{prob}%', color

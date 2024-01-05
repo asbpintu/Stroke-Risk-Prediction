@@ -6,6 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
     <title>stroke-risk</title>
+    <style>
+        .out1{
+            text-decoration:underline;
+        }
+        .out2{
+            margin: 0px 20px;
+            box-shadow: 0px 0px 5px {{color}};
+            color: {{color}};
+            padding: 10px;
+            font-size: 24px;
+        }
+        .out3{
+            color: rgba(39, 39, 39, 0.861);
+        }
+        .out3 span{
+            font-size: 30px;
+            color: {{color}};
+        }
+    </style>
 </head>
 
 <body>
@@ -120,8 +139,7 @@
                     <div class="prediction-value">
                         <h2 class="out1">{{name}}</h2>
                         <h3 class="out2">{{value}}</h3>
-                        <h4 class="out3">{{prob}}</h4>
-                        <h5 class="out4">{{prob}}</h5>
+                        <h4 class="out3">{{text1}}<span>{{prob}}</span>{{text2}}</h4>
                     </div>
                 </div>
             </div>

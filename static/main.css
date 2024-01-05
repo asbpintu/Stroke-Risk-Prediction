@@ -122,6 +122,9 @@ body{
     margin: 50px 60px;
     height: 350px;
     box-shadow: 0px 0px 10px black;
+    display: grid;
+    align-items:start;
+    background-color:white
 }
 .outer-ten dt{
     margin-top: 10px;

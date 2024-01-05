@@ -9,6 +9,9 @@ from stroke_risk.pipeline.prediction import PredictionFromData
 def home():
     result = ''
     prob = ''
+    color = ''
+    text1 = ''
+    text2 = ''
     if request.method == 'POST':
 
         name = request.form["name"]
@@ -27,11 +30,14 @@ def home():
             }
         
         prediction_instance = PredictionFromData(form_data)
-        result, prob = prediction_instance.predict()
+        result, prob, color = prediction_instance.predict()
 
-        return render_template('index.html', value = result, name = name, prob = prob)
+        text1 = 'You have a '
+        text2 = ' chance of being affected by a Brain-Stroke.'
+
+        return render_template('index.html', value = result, name = name, prob = prob, text1 = text1, text2 = text2, color = color)
     else:
-        return render_template('index.html', value = 'Waiting . . . ', name = 'Waiting for Prediction', prob = prob)
+        return render_template('index.html', value = 'Waiting . . . ', name = '', prob = prob, text1 = text1, text2 = text2, color = color)
 
 
 @app.route('/training', methods=['GET', 'POST'])
