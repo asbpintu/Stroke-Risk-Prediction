@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgb(179, 255, 214);
+    height: 100vh;
+    width: 70%;
+}
+
+/*  */
+
+.head{  
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px;
+    color: darkgreen;
+    text-shadow: 3px 3px 4px green;
+}
+.text{
+    margin-right:20px;
+}
+.pro{
+    margin-right: 25px;
+}
+.inner-pro{
+    height: 5px;
+    background-color: red;
+    transition: 0.2s;
+    width: 0px;
+}
+.text{
+    display: flex;
+    align-items: center;
+}
+.train-model-btn{
+    text-decoration: none;
+    color: tomato;
+    font-size: 20px;
+    font-weight: 800;
+}
+.pro:hover .inner-pro {
+    width: 100%;
+}
+.gotrain{
+    margin-top: 70px;
+}
+.gotrain{
+    display: flex;
+    justify-content: end;
+}
+.field{
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    margin-top: 40px;
+    /* justify-content: center; */
+}
+.left{
+    background-color: rgb(255, 183, 0);
+}
+.right{
+    background-color: aqua;
+}
+
+/* innner five */
+.outer-ten{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    justify-content: center;
+    margin-top: 30px;
+}
+.inner-right-five{
+    border-left: 2px solid rgb(135, 0, 0);
+    padding-left: 30px;
+}
+.inner-left-five{
+    padding-left: 30px;
+}
+.predict-btn-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.field .left .outer-ten input, select{
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+    border: none;
+    margin-top: 5px;
+}
+.nm{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nm-input{
+    border-radius: 5px;
+    height: 25px;
+    width: 300px;
+    margin-left: 30px;
+    border: none;
+}
+.predict-btn{
+    background-color: rgb(0, 255, 106);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.field-head{
+    text-align: center;
+}
+.prediction-value{
+    margin: 50px 60px;
+    height: 350px;
+    box-shadow: 0px 0px 10px black;
+}
+.outer-ten dt{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.prediction-value .out1{
+    padding-top: 30px;
+}
+
+.result{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+
+/*  */
+
+.outer-box{
+    background-color: rgb(255, 183, 0);
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    margin-top: 50px;
+}
+.box{
+    width: 50%;
+    display: grid;
+}
+
+.stage{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 32px;
+    text-decoration: underline;
+    font-weight: 1000;
+}
+
+.timer{
+    text-align: center;
+    /* margin-top: 70px; */
+    font-size: 28px;
+    font-weight: 1000;
+}
+
+.training-btn-div{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 100px; */
+}
+
+.training-btn{
+    background-color: rgb(0, 255, 106);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+}

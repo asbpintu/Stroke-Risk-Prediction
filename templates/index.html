@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    <title>stroke-risk</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navi">
+            <div class="inner-navi">
+                <div class="head">
+                    <h1>STROKE RISK PREDICTION</h1>
+                </div>
+                <div class="gotrain">
+                    <div class="text">Click to go Training Page</div>
+                    <div class="pro">
+                        <a href="{{url_for('training')}}" class="train-model-btn">TRAINING</a>
+                        <div class="inner-pro"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="field">
+            <div class="left">
+                <h2 class="field-head">Health & Personal Report</h2>
+                <form method="post">
+                    <dl>
+                        <dt class="nm">Name:<input type="text" class="form-control nm-input" name="name"></dt>
+                        <div class="outer-ten">
+                            <div class="inner-left-five">
+                                <dt>Gender</dt>
+                                <dd>
+                                    <select name="gender">
+                                        <option>Select</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                </dd>
+                                <dt>Age</dt>
+                                <dd>
+                                    <input type="text" name="age">
+                                </dd>
+                                <dt>Marital Status</dt>
+                                <dd>
+                                    <select name="marriage">
+                                        <option>Select</option>
+                                        <option>Married</option>
+                                        <option>UnMarried</option>
+                                    </select>
+                                </dd>
+                                <dt>Work Type</dt>
+                                <dd>
+                                    <select name="work">
+                                        <option>Select</option>
+                                        <option>Govt. Job</option>
+                                        <option>Private Job</option>
+                                        <option>Self Employed</option>
+                                        <option>Un-Employed</option>
+                                    </select>
+                                </dd>
+                                <dt>Resident</dt>
+                                <dd>
+                                    <select name="resident">
+                                        <option>Select</option>
+                                        <option>Urban</option>
+                                        <option>Rural</option>
+                                    </select>
+                                </dd>
+                            </div>
+                            <div class="inner-right-five">
+                                <dt>Hypertension</dt>
+                                <dd>
+                                    <select name="hyper">
+                                        <option>Select</option>
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                    </select>
+                                </dd>
+                                <dt>Heart Disease</dt>
+                                <dd>
+                                    <select name="heart">
+                                        <option>Select</option>
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                    </select>
+                                </dd>
+                                <dt>Average Glucose Level:</dt>
+                                <dd>
+                                    <input type="text" class="form-control" name="glucose">
+                                </dd>
+                                <dt>BMI:</dt>
+                                <dd>
+                                    <input type="text" class="form-control" name="bmi">
+                                </dd>
+                                <dt>Smoking Status</dt>
+                                <dd>
+                                    <select name="smoke">
+                                        <option>Select</option>
+                                        <option>Smokes</option>
+                                        <option>formerly Smoked</option>
+                                        <option>Never Smoked</option>
+                                    </select>
+                                </dd>
+                            </div>
+                        </div>
+                        <div class="predict-btn-div">
+                            <button type="submit" class="predict-btn">PREDICT</button>
+                        </div>
+                    </dl>
+                </form>
+            </div>
+            <div class="right">
+                <div class="result">
+                    <h2 class="field-head">Prediction Result</h2>
+                    <div class="prediction-value">
+                        <h2 class="out1">{{name}}</h2>
+                        <h3 class="out2">{{value}}</h3>
+                        <h4 class="out3">{{prob}}</h4>
+                        <h5 class="out4">{{prob}}</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

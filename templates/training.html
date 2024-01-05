@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    <title>training</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner-navi">
+            <div class="head">
+                <h1>MODEL TRAINING</h1>
+            </div>
+            <div class="gotrain">
+                <div class="text">Click to go Prediction Page</div>
+                <div class="pro">
+                    <a href="{{url_for('home')}}" class="train-model-btn">PREDICTION</a>
+                    <div class="inner-pro"></div>
+                </div>
+            </div>
+        </div>
+        <div class="outer-box">
+            <div class="box">
+                <div class="stage" id="stage">{{value2}}</div>
+                <div class="timer" id="timer">{{value}}</div>
+                <form method="post">
+                    <div class="training-btn-div">
+                        <button type="submit" class="training-btn" id="startTrainingBtn">START TRAINING</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.onload = function () {
+            var startTime;
+            var timerElement = document.getElementById('timer');
+            var stageElement = document.getElementById('stage')
+            var startTrainingBtn = document.getElementById('startTrainingBtn');
+
+            function startTimer() {
+                startTime = new Date().getTime();
+                setInterval(updateTimer, 1000);
+            }
+
+            function updateTimer() {
+                var currentTime = new Date().getTime();
+                var elapsedTime = currentTime - startTime;
+                var seconds = Math.floor(elapsedTime / 1000);
+
+
+                timerElement.innerHTML = seconds + " seconds.";
+                stageElement.innerHTML = "Training Started"
+            }
+
+            startTrainingBtn.addEventListener('click', startTimer);
+        };
+    </script>
+</body>
+
+</html>
