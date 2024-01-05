@@ -7,7 +7,8 @@ from stroke_risk.pipeline.prediction import PredictionFromData
 
 @ app.route('/', methods = ['GET', 'POST'])
 def home():
-
+    result = ''
+    prob = ''
     if request.method == 'POST':
 
         name = request.form["name"]
