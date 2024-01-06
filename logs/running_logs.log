@@ -15136,3 +15136,5 @@ KeyError: 1
 [2024-01-06 12:15:51,123: INFO: _internal:  * Debugger PIN: 932-334-328]
 [2024-01-06 12:15:58,880: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:15:58] "POST / HTTP/1.1" 200 -]
 [2024-01-06 12:15:59,031: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:15:59] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-06 12:19:22,609: INFO: _internal:  * Detected change in 'C:\\Users\\asbpi\\Desktop\\ASB\\Data_Science\\Projects\\MY Projects\\Stroke-Risk-Prediction\\app.py', reloading]
+[2024-01-06 12:19:22,747: INFO: _internal:  * Restarting with stat]
