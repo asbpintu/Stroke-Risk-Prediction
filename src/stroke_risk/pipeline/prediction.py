@@ -1,4 +1,5 @@
 import joblib
+import pickle
 from pathlib import Path
 
 class PredictionFromData:
@@ -66,7 +67,8 @@ class PredictionFromData:
     def predict(self):
         final_data = [self.making_flatten_list()]
 
-        model = joblib.load(Path('model\model.joblib'))
+        # model = joblib.load(Path('model\model.joblib'))
+        model = pickle.load(open(Path('model\model.pkl'), 'rb'))
         result = model.predict(final_data)
         prob = model.predict_proba(final_data)
         prob = round(prob[0][1]*100, 1)
