@@ -71,14 +71,14 @@ Click Training to go to Training Page and Click Start Training button.
 
 ## Snapshots
 
-![image-1](snapshots\Screenshot_15.png)
-![image-2](snapshots\Screenshot_16.png)
-![image-3](snapshots\Screenshot_17.png)
-![image-4](snapshots\Screenshot_18.png)
-![image-5](snapshots\Screenshot_19.png)
-![image-6](snapshots\Screenshot_20.png)
-![image-7](snapshots\Screenshot_21.png)
-![image-8](snapshots\Screenshot_22.png)
+![image-1](snapshots/Screenshot_15.png)
+![image-2](snapshots/Screenshot_16.png)
+![image-3](snapshots/Screenshot_17.png)
+![image-4](snapshots/Screenshot_18.png)
+![image-5](snapshots/Screenshot_19.png)
+![image-6](snapshots/Screenshot_20.png)
+![image-7](snapshots/Screenshot_21.png)
+![image-8](snapshots/Screenshot_22.png)
 
 
 
