@@ -15138,3 +15138,503 @@ KeyError: 1
 [2024-01-06 12:15:59,031: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:15:59] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
 [2024-01-06 12:19:22,609: INFO: _internal:  * Detected change in 'C:\\Users\\asbpi\\Desktop\\ASB\\Data_Science\\Projects\\MY Projects\\Stroke-Risk-Prediction\\app.py', reloading]
 [2024-01-06 12:19:22,747: INFO: _internal:  * Restarting with stat]
+[2024-01-06 12:24:30,747: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:24:30] "POST / HTTP/1.1" 200 -]
+[2024-01-06 12:24:30,921: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:24:30] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-06 12:25:36,857: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:25:36] "POST / HTTP/1.1" 200 -]
+[2024-01-06 12:25:36,885: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:25:36] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-06 12:26:06,609: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:26:06] "GET /training HTTP/1.1" 200 -]
+[2024-01-06 12:26:06,628: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:26:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-06 12:26:25,133: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2024-01-06 12:26:25,135: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Started) ********
+
+]
+[2024-01-06 12:26:25,138: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-06 12:26:25,147: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-06 12:26:25,149: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-06 12:26:25,149: INFO: common: created directory at: artifacts]
+[2024-01-06 12:26:25,150: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-06 12:26:25,150: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-06 12:26:28,026: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2024-01-06 12:26:28,043: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2024-01-06 12:26:28,043: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Completed) ********
+
+]
+[2024-01-06 12:26:28,044: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Started) ********
+
+]
+[2024-01-06 12:26:28,048: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-06 12:26:28,049: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-06 12:26:28,051: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-06 12:26:28,051: INFO: common: created directory at: artifacts]
+[2024-01-06 12:26:28,051: INFO: common: created directory at: artifacts/data_preprocess]
+[2024-01-06 12:26:28,081: INFO: c2_data_preprocess: Datatype Fixed]
+[2024-01-06 12:26:28,083: INFO: c2_data_preprocess: Data Substituted]
+[2024-01-06 12:26:28,089: INFO: c2_data_preprocess: age-bin and gender-age created]
+[2024-01-06 12:26:28,091: INFO: c2_data_preprocess: Null value in bmi imputed]
+[2024-01-06 12:26:28,091: INFO: c2_data_preprocess: Unnessary columns deleted]
+[2024-01-06 12:26:28,135: INFO: c2_data_preprocess: File saved in artifacts/data_preprocess/data.csv]
+[2024-01-06 12:26:28,136: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Completed) ********
+
+]
+[2024-01-06 12:26:28,137: INFO: main: 
+
+******** Stage :  Data Validation --> (Started) ********
+
+]
+[2024-01-06 12:26:28,140: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-06 12:26:28,142: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-06 12:26:28,145: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-06 12:26:28,145: INFO: common: created directory at: artifacts]
+[2024-01-06 12:26:28,146: INFO: common: created directory at: artifacts/data_validation]
+[2024-01-06 12:26:28,180: INFO: c3_data_validation: All Validation Passed]
+[2024-01-06 12:26:28,181: INFO: main: 
+
+******** Stage :  Data Validation --> (Completed) ********
+
+]
+[2024-01-06 12:26:28,181: INFO: main: 
+
+******** Stage :  Data Transformation --> (Started) ********
+
+]
+[2024-01-06 12:26:28,185: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-06 12:26:28,187: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-06 12:26:28,189: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-06 12:26:28,192: INFO: common: created directory at: artifacts]
+[2024-01-06 12:26:28,193: INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-06 12:26:28,225: INFO: c4_data_transformation: LabelEncoder & OnehotEncoder applied to Categorical Columns]
+[2024-01-06 12:26:28,226: INFO: c4_data_transformation: Encoded data saved in artifacts/data_transformation/data.csv]
+[2024-01-06 12:26:28,286: INFO: c4_data_transformation: Splited data into training and test sets]
+[2024-01-06 12:26:28,286: INFO: c4_data_transformation: train data shape - (4052, 16)]
+[2024-01-06 12:26:28,287: INFO: c4_data_transformation: test data shape - (1014, 16)]
+[2024-01-06 12:26:28,287: INFO: main: 
+
+******** Stage :  Data Transformation --> (Completed) ********
+
+]
+[2024-01-06 12:26:28,287: INFO: main: 
+
+******** Stage :  Model Training --> (Started) ********
+
+]
+[2024-01-06 12:26:28,291: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-06 12:26:28,292: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-06 12:26:28,294: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-06 12:26:28,295: INFO: common: created directory at: artifacts]
+[2024-01-06 12:26:28,296: INFO: common: created directory at: artifacts/model_training]
+[2024-01-06 12:26:33,368: INFO: common: created directory at: model]
+[2024-01-06 12:26:33,612: INFO: c5_model_training: Model Trained]
+[2024-01-06 12:26:33,613: INFO: c5_model_training: Model saved at model/model.joblib]
+[2024-01-06 12:26:33,616: INFO: main: 
+
+******** Stage :  Model Training --> (Completed) ********
+
+]
+[2024-01-06 12:26:33,617: INFO: main: 
+
+******** Stage :  Model Evaluation --> (Started) ********
+
+]
+[2024-01-06 12:26:33,624: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-06 12:26:33,627: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-06 12:26:33,632: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-06 12:26:33,632: INFO: common: created directory at: artifacts]
+[2024-01-06 12:26:33,633: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-01-06 12:26:35,259: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-01-06 12:27:01,472: INFO: main: 
+
+******** Stage :  Model Evaluation --> (Completed) ********
+
+]
+[2024-01-06 12:27:01,473: INFO: main: 
+
+
+===================== PROGRAMME COMPLETED =====================
+
+
+]
+[2024-01-06 12:27:01,964: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:27:01] "POST /training HTTP/1.1" 200 -]
+[2024-01-06 12:27:01,993: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:27:01] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-06 12:27:28,311: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:27:28] "GET / HTTP/1.1" 200 -]
+[2024-01-06 12:27:28,335: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:27:28] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-06 12:28:03,494: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:28:03] "GET /training HTTP/1.1" 200 -]
+[2024-01-06 12:28:03,520: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:28:03] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-06 12:28:20,288: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:28:20] "GET / HTTP/1.1" 200 -]
+[2024-01-06 12:28:20,313: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 12:28:20] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-06 13:42:25,745: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-01-06 13:42:25,746: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-06 13:43:02,714: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 13:43:02] "GET / HTTP/1.1" 200 -]
+[2024-01-06 13:43:03,090: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 13:43:03] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-06 13:43:03,473: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 13:43:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-01-06 13:43:24,349: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 13:43:24] "GET / HTTP/1.1" 200 -]
+[2024-01-06 13:43:24,606: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 13:43:24] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-06 13:43:42,731: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 13:43:42] "GET / HTTP/1.1" 200 -]
+[2024-01-06 13:43:42,994: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 13:43:42] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-06 13:44:55,729: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 13:44:55] "GET / HTTP/1.1" 200 -]
+[2024-01-06 13:44:55,993: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 13:44:55] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-06 13:47:40,458: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 13:47:40] "GET / HTTP/1.1" 200 -]
+[2024-01-06 13:47:40,707: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 13:47:40] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-06 13:47:43,081: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 13:47:43] "GET /training HTTP/1.1" 200 -]
+[2024-01-06 13:47:43,411: INFO: _internal: 127.0.0.1 - - [06/Jan/2024 13:47:43] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-06 23:42:19,469: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-01-06 23:42:19,469: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-07 12:44:22,721: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-01-07 12:44:22,724: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-07 12:44:26,276: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:44:26] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:44:26,525: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:44:26] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:44:26,627: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:44:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-01-07 12:46:20,024: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:46:20] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 12:46:20,061: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:46:20] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:46:22,190: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:46:22] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:46:22,233: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:46:22] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:48:56,304: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:48:56] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:48:56,377: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:48:56] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 12:48:57,512: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:48:57] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:48:57,558: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:48:57] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:48:58,267: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:48:58] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:48:58,321: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:48:58] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:48:58,975: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:48:58] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:48:59,008: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:48:59] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:49:23,672: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:49:23] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:49:23,734: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:49:23] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 12:50:26,364: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-01-07 12:50:26,367: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-07 12:50:26,371: INFO: _internal:  * Restarting with stat]
+[2024-01-07 12:50:27,057: WARNING: _internal:  * Debugger is active!]
+[2024-01-07 12:50:27,067: INFO: _internal:  * Debugger PIN: 932-334-328]
+[2024-01-07 12:50:31,728: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:50:31] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:50:31,965: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:50:31] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 12:51:10,539: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:51:10] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:51:10,615: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:51:10] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 12:51:11,782: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:51:11] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:51:11,833: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:51:11] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:51:12,703: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:51:12] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:51:12,751: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:51:12] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:51:14,271: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:51:14] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 12:51:14,311: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:51:14] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:51:14,975: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:51:14] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:51:15,011: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:51:15] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:51:35,676: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:51:35] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:51:35,718: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:51:35] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:53:05,227: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:53:05] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:53:05,299: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:53:05] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 12:54:21,200: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:54:21] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:54:21,273: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:54:21] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 12:54:44,851: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:54:44] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:54:44,904: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:54:44] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 12:57:01,002: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:57:01] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:57:01,097: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:57:01] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 12:57:07,153: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:57:07] "[35m[1mPOST / HTTP/1.1[0m" 500 -]
+[2024-01-07 12:57:07,205: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:57:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:57:07,208: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:57:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2024-01-07 12:57:07,300: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:57:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2024-01-07 12:57:07,333: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:57:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2024-01-07 12:57:25,997: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:57:25] "[35m[1mPOST / HTTP/1.1[0m" 500 -]
+[2024-01-07 12:57:26,046: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:57:26] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:57:26,056: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:57:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2024-01-07 12:57:26,082: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:57:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2024-01-07 12:57:26,141: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:57:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2024-01-07 12:57:56,425: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:57:56] "POST / HTTP/1.1" 200 -]
+[2024-01-07 12:57:56,462: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:57:56] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:58:58,777: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:58:58] "POST / HTTP/1.1" 200 -]
+[2024-01-07 12:58:58,833: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:58:58] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 12:59:08,124: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:59:08] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 12:59:08,163: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:59:08] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:59:09,458: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:59:09] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:59:09,498: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:59:09] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:59:53,353: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:59:53] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 12:59:53,400: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:59:53] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 12:59:59,336: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:59:59] "GET / HTTP/1.1" 200 -]
+[2024-01-07 12:59:59,384: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 12:59:59] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 13:00:01,999: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:00:01] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 13:00:02,037: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:00:02] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 13:00:04,316: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:00:04] "GET / HTTP/1.1" 200 -]
+[2024-01-07 13:00:04,356: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:00:04] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 13:00:05,314: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:00:05] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 13:00:05,363: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:00:05] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 13:00:06,341: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:00:06] "GET / HTTP/1.1" 200 -]
+[2024-01-07 13:00:06,385: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:00:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 13:00:53,480: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:00:53] "GET / HTTP/1.1" 200 -]
+[2024-01-07 13:00:53,546: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:00:53] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 13:01:54,101: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:01:54] "GET / HTTP/1.1" 200 -]
+[2024-01-07 13:01:54,170: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:01:54] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 13:02:12,549: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:02:12] "GET / HTTP/1.1" 200 -]
+[2024-01-07 13:02:12,604: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:02:12] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 13:02:33,055: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:02:33] "GET / HTTP/1.1" 200 -]
+[2024-01-07 13:02:33,134: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:02:33] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 13:02:46,413: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:02:46] "GET / HTTP/1.1" 200 -]
+[2024-01-07 13:02:46,494: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:02:46] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 13:04:28,406: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:04:28] "GET / HTTP/1.1" 200 -]
+[2024-01-07 13:04:28,450: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:04:28] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 13:05:12,237: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:05:12] "GET / HTTP/1.1" 200 -]
+[2024-01-07 13:05:12,282: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:05:12] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 13:05:19,423: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:05:19] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 13:05:19,459: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:05:19] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 13:05:20,537: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:05:20] "GET / HTTP/1.1" 200 -]
+[2024-01-07 13:05:20,589: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:05:20] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 13:06:40,199: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:06:40] "GET / HTTP/1.1" 200 -]
+[2024-01-07 13:06:40,239: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:06:40] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 13:09:36,254: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:09:36] "[33mGET /asbpintu.com HTTP/1.1[0m" 404 -]
+[2024-01-07 13:09:43,771: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:09:43] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 13:09:43,806: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:09:43] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 13:09:44,234: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:09:44] "GET / HTTP/1.1" 200 -]
+[2024-01-07 13:09:44,269: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 13:09:44] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:20:57,528: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-01-07 15:20:57,529: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-07 15:20:57,529: INFO: _internal:  * Restarting with stat]
+[2024-01-07 15:20:57,980: WARNING: _internal:  * Debugger is active!]
+[2024-01-07 15:20:57,980: INFO: _internal:  * Debugger PIN: 932-334-328]
+[2024-01-07 15:21:03,974: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:21:03] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:21:04,328: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:21:04] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-01-07 15:21:04,474: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:21:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-01-07 15:21:48,518: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:21:48] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:21:48,547: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:21:48] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:21:49,443: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:21:49] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:21:49,469: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:21:49] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:16,513: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:16] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:16,569: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:16] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:20,832: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:20] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:20,860: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:20] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:21,874: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:21] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:21,901: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:21] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:22,600: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:22] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:22,621: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:22] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:23,171: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:23] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:23,196: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:23] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:23,749: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:23] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:23,776: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:23] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:24,304: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:24] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:24,337: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:24] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:25,637: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:25] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:25,663: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:25] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:26,263: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:26] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:26,288: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:26] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:26,832: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:26] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:26,857: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:26] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:28,398: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:28] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:28,428: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:28] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:29,097: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:29] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:29,127: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:29] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:30,003: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:30] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:30,032: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:30] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:30,687: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:30] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:30,717: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:30] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:31,550: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:31] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:31,583: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:31] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:32,158: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:32] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:32,179: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:32,756: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:32] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:32,785: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:33,312: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:33] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:33,342: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:33] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:33,941: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:33] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:33,966: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:33] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:34,788: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:34] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:34,816: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:34] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:35,759: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:35] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:35,796: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:35] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:36,739: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:36] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:36,763: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:36] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:37,894: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:37] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:37,927: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:37] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:38,465: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:38] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:38,494: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:38] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:39,026: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:39] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:39,058: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:39] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:39,957: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:39] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:39,977: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:39] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:47,394: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:47] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:47,428: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:47] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:54,842: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:54] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:54,878: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:54] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:55,790: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:55] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:55,822: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:55] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:56,556: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:56] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:56,585: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:56] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:57,320: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:57] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:41:57,347: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:57] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:41:58,414: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:58] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:41:58,446: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:41:58] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:43:03,101: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:43:03] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:43:03,127: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:43:03] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:46:08,885: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2024-01-07 15:46:08,885: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-07 15:46:08,892: INFO: _internal:  * Restarting with stat]
+[2024-01-07 15:46:09,312: WARNING: _internal:  * Debugger is active!]
+[2024-01-07 15:46:09,312: INFO: _internal:  * Debugger PIN: 932-334-328]
+[2024-01-07 15:46:14,474: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:46:14] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:46:14,739: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:46:14] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:46:14,827: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:46:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-01-07 15:47:21,938: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:47:21] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:47:21,974: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:47:21] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:47:51,773: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2024-01-07 15:47:51,774: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Started) ********
+
+]
+[2024-01-07 15:47:51,786: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-07 15:47:51,802: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-07 15:47:51,816: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-07 15:47:51,817: INFO: common: created directory at: artifacts]
+[2024-01-07 15:47:51,818: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-07 15:47:51,821: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-07 15:47:54,585: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2024-01-07 15:47:54,604: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2024-01-07 15:47:54,604: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Completed) ********
+
+]
+[2024-01-07 15:47:54,605: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Started) ********
+
+]
+[2024-01-07 15:47:54,611: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-07 15:47:54,616: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-07 15:47:54,620: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-07 15:47:54,621: INFO: common: created directory at: artifacts]
+[2024-01-07 15:47:54,622: INFO: common: created directory at: artifacts/data_preprocess]
+[2024-01-07 15:47:54,694: INFO: c2_data_preprocess: Datatype Fixed]
+[2024-01-07 15:47:54,698: INFO: c2_data_preprocess: Data Substituted]
+[2024-01-07 15:47:54,712: INFO: c2_data_preprocess: age-bin and gender-age created]
+[2024-01-07 15:47:54,721: INFO: c2_data_preprocess: Null value in bmi imputed]
+[2024-01-07 15:47:54,723: INFO: c2_data_preprocess: Unnessary columns deleted]
+[2024-01-07 15:47:54,777: INFO: c2_data_preprocess: File saved in artifacts/data_preprocess/data.csv]
+[2024-01-07 15:47:54,778: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Completed) ********
+
+]
+[2024-01-07 15:47:54,778: INFO: main: 
+
+******** Stage :  Data Validation --> (Started) ********
+
+]
+[2024-01-07 15:47:54,782: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-07 15:47:54,784: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-07 15:47:54,785: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-07 15:47:54,786: INFO: common: created directory at: artifacts]
+[2024-01-07 15:47:54,786: INFO: common: created directory at: artifacts/data_validation]
+[2024-01-07 15:47:54,850: INFO: c3_data_validation: All Validation Passed]
+[2024-01-07 15:47:54,850: INFO: main: 
+
+******** Stage :  Data Validation --> (Completed) ********
+
+]
+[2024-01-07 15:47:54,851: INFO: main: 
+
+******** Stage :  Data Transformation --> (Started) ********
+
+]
+[2024-01-07 15:47:54,855: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-07 15:47:54,855: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-07 15:47:54,858: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-07 15:47:54,858: INFO: common: created directory at: artifacts]
+[2024-01-07 15:47:54,858: INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-07 15:47:54,901: INFO: c4_data_transformation: LabelEncoder & OnehotEncoder applied to Categorical Columns]
+[2024-01-07 15:47:54,904: INFO: c4_data_transformation: Encoded data saved in artifacts/data_transformation/data.csv]
+[2024-01-07 15:47:54,989: INFO: c4_data_transformation: Splited data into training and test sets]
+[2024-01-07 15:47:54,989: INFO: c4_data_transformation: train data shape - (4052, 16)]
+[2024-01-07 15:47:54,990: INFO: c4_data_transformation: test data shape - (1014, 16)]
+[2024-01-07 15:47:54,990: INFO: main: 
+
+******** Stage :  Data Transformation --> (Completed) ********
+
+]
+[2024-01-07 15:47:54,991: INFO: main: 
+
+******** Stage :  Model Training --> (Started) ********
+
+]
+[2024-01-07 15:47:54,998: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-07 15:47:54,999: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-07 15:47:55,001: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-07 15:47:55,002: INFO: common: created directory at: artifacts]
+[2024-01-07 15:47:55,002: INFO: common: created directory at: artifacts/model_training]
+[2024-01-07 15:48:00,226: INFO: common: created directory at: model]
+[2024-01-07 15:48:00,512: INFO: c5_model_training: Model Trained]
+[2024-01-07 15:48:00,512: INFO: c5_model_training: Model saved at model/model.joblib]
+[2024-01-07 15:48:00,517: INFO: main: 
+
+******** Stage :  Model Training --> (Completed) ********
+
+]
+[2024-01-07 15:48:00,518: INFO: main: 
+
+******** Stage :  Model Evaluation --> (Started) ********
+
+]
+[2024-01-07 15:48:00,526: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-07 15:48:00,532: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-07 15:48:00,537: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-07 15:48:00,540: INFO: common: created directory at: artifacts]
+[2024-01-07 15:48:00,541: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-01-07 15:48:02,257: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-01-07 15:48:24,433: INFO: main: 
+
+******** Stage :  Model Evaluation --> (Completed) ********
+
+]
+[2024-01-07 15:48:24,435: INFO: main: 
+
+
+===================== PROGRAMME COMPLETED =====================
+
+
+]
+[2024-01-07 15:48:24,845: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:48:24] "POST /training HTTP/1.1" 200 -]
+[2024-01-07 15:48:24,875: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:48:24] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:48:48,037: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:48:48] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:48:48,054: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:48:48] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:49:40,280: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:49:40] "POST / HTTP/1.1" 200 -]
+[2024-01-07 15:49:40,303: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:49:40] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:51:09,839: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:51:09] "POST / HTTP/1.1" 200 -]
+[2024-01-07 15:51:09,862: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:51:09] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:52:16,601: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:52:16] "GET /training HTTP/1.1" 200 -]
+[2024-01-07 15:52:16,675: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:52:16] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:52:17,250: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:52:17] "GET / HTTP/1.1" 200 -]
+[2024-01-07 15:52:17,269: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:52:17] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 15:52:58,666: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:52:58] "POST / HTTP/1.1" 200 -]
+[2024-01-07 15:52:58,692: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:52:58] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-01-07 17:03:49,177: INFO: _internal:  * Detected change in 'C:\\Users\\asbpi\\Desktop\\ASB\\Data_Science\\Projects\\MY Projects\\Stroke-Risk-Prediction\\app.py', reloading]
+[2024-01-07 17:03:49,409: INFO: _internal:  * Restarting with stat]
