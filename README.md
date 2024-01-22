@@ -156,7 +156,7 @@ In a world where technology and healthcare converge to shape the future, our "Br
         - Click the running circle button near the new commit message
 
 
-# <p style="text-align: center; color: gold">THANK YOU !!!</p>
+# <p align="center">THANK YOU !!!</p>
 
 ### **BestRegards**
 
