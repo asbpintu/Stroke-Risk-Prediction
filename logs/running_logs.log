@@ -15638,3 +15638,192 @@ KeyError: 1
 [2024-01-07 15:52:58,692: INFO: _internal: 127.0.0.1 - - [07/Jan/2024 15:52:58] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
 [2024-01-07 17:03:49,177: INFO: _internal:  * Detected change in 'C:\\Users\\asbpi\\Desktop\\ASB\\Data_Science\\Projects\\MY Projects\\Stroke-Risk-Prediction\\app.py', reloading]
 [2024-01-07 17:03:49,409: INFO: _internal:  * Restarting with stat]
+[2024-08-07 01:11:02,591: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.7:8080]
+[2024-08-07 01:11:02,597: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-08-07 01:11:17,837: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:11:17] "GET / HTTP/1.1" 200 -]
+[2024-08-07 01:11:18,142: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:11:18] "GET /static/main.css HTTP/1.1" 200 -]
+[2024-08-07 01:11:18,205: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:11:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-08-07 01:13:30,050: ERROR: app: Exception on / [POST]]
+Traceback (most recent call last):
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\asbpi\OneDrive\Desktop\ASB\Data_Science\PROJECTS\Portfolio Projects\Stroke-Risk-Prediction\app.py", line 33, in home
+    result, prob, color = prediction_instance.predict()
+  File "c:\users\asbpi\onedrive\desktop\asb\data_science\projects\portfolio projects\stroke-risk-prediction\src\stroke_risk\pipeline\prediction.py", line 72, in predict
+    result = model.predict(final_data)
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\sklearn\ensemble\_forest.py", line 904, in predict
+    proba = self.predict_proba(X)
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\sklearn\ensemble\_forest.py", line 946, in predict_proba
+    X = self._validate_X_predict(X)
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\sklearn\ensemble\_forest.py", line 636, in _validate_X_predict
+    if self.estimators_[0]._support_missing_values(X):
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\sklearn\tree\_classes.py", line 188, in _support_missing_values
+    and self.monotonic_cst is None
+AttributeError: 'DecisionTreeClassifier' object has no attribute 'monotonic_cst'
+[2024-08-07 01:13:30,059: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:13:30] "[35m[1mPOST / HTTP/1.1[0m" 500 -]
+[2024-08-07 01:13:47,827: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:13:47] "GET /training HTTP/1.1" 200 -]
+[2024-08-07 01:13:47,878: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:13:47] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-08-07 01:13:51,321: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:13:51] "GET / HTTP/1.1" 200 -]
+[2024-08-07 01:13:51,369: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:13:51] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-08-07 01:14:03,428: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:14:03] "GET /training HTTP/1.1" 200 -]
+[2024-08-07 01:14:03,476: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:14:03] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-08-07 01:14:27,401: INFO: main: 
+
+
+===================== PROGRAMME STARTED =====================
+
+
+]
+[2024-08-07 01:14:27,402: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Started) ********
+
+]
+[2024-08-07 01:14:27,410: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-07 01:14:27,438: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-07 01:14:27,459: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-08-07 01:14:27,459: INFO: common: created directory at: artifacts]
+[2024-08-07 01:14:27,459: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-07 01:14:27,459: INFO: c1_data_ingestion: Downloading data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-08-07 01:14:32,185: INFO: c1_data_ingestion: Downloaded data from https://drive.google.com/file/d/1wzvRf9zGZi6rztGd4m8vdzhGriAmfF9j/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2024-08-07 01:14:32,209: INFO: c1_data_ingestion: Extracted Zip file artifacts/data_ingestion/data.zip into artifacts/data_ingestion]
+[2024-08-07 01:14:32,209: INFO: main: 
+
+******** Stage :  Data Ingestion --> (Completed) ********
+
+]
+[2024-08-07 01:14:32,213: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Started) ********
+
+]
+[2024-08-07 01:14:32,218: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-07 01:14:32,218: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-07 01:14:32,225: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-08-07 01:14:32,229: INFO: common: created directory at: artifacts]
+[2024-08-07 01:14:32,229: INFO: common: created directory at: artifacts/data_preprocess]
+[2024-08-07 01:14:32,302: INFO: c2_data_preprocess: Datatype Fixed]
+[2024-08-07 01:14:32,302: INFO: c2_data_preprocess: Data Substituted]
+[2024-08-07 01:14:32,326: INFO: c2_data_preprocess: age-bin and gender-age created]
+[2024-08-07 01:14:32,333: INFO: c2_data_preprocess: Null value in bmi imputed]
+[2024-08-07 01:14:32,333: INFO: c2_data_preprocess: Unnessary columns deleted]
+[2024-08-07 01:14:32,392: INFO: c2_data_preprocess: File saved in artifacts/data_preprocess/data.csv]
+[2024-08-07 01:14:32,400: INFO: main: 
+
+******** Stage :  Data PreProcess --> (Completed) ********
+
+]
+[2024-08-07 01:14:32,400: INFO: main: 
+
+******** Stage :  Data Validation --> (Started) ********
+
+]
+[2024-08-07 01:14:32,400: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-07 01:14:32,407: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-07 01:14:32,412: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-08-07 01:14:32,412: INFO: common: created directory at: artifacts]
+[2024-08-07 01:14:32,412: INFO: common: created directory at: artifacts/data_validation]
+[2024-08-07 01:14:32,467: INFO: c3_data_validation: All Validation Passed]
+[2024-08-07 01:14:32,475: INFO: main: 
+
+******** Stage :  Data Validation --> (Completed) ********
+
+]
+[2024-08-07 01:14:32,475: INFO: main: 
+
+******** Stage :  Data Transformation --> (Started) ********
+
+]
+[2024-08-07 01:14:32,475: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-07 01:14:32,482: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-07 01:14:32,483: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-08-07 01:14:32,487: INFO: common: created directory at: artifacts]
+[2024-08-07 01:14:32,487: INFO: common: created directory at: artifacts/data_transformation]
+[2024-08-07 01:14:32,534: INFO: c4_data_transformation: LabelEncoder & OnehotEncoder applied to Categorical Columns]
+[2024-08-07 01:14:32,534: INFO: c4_data_transformation: Encoded data saved in artifacts/data_transformation/data.csv]
+[2024-08-07 01:14:32,624: INFO: c4_data_transformation: Splited data into training and test sets]
+[2024-08-07 01:14:32,624: INFO: c4_data_transformation: train data shape - (4052, 16)]
+[2024-08-07 01:14:32,624: INFO: c4_data_transformation: test data shape - (1014, 16)]
+[2024-08-07 01:14:32,624: INFO: main: 
+
+******** Stage :  Data Transformation --> (Completed) ********
+
+]
+[2024-08-07 01:14:32,624: INFO: main: 
+
+******** Stage :  Model Training --> (Started) ********
+
+]
+[2024-08-07 01:14:32,632: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-07 01:14:32,633: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-07 01:14:32,633: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-08-07 01:14:32,633: INFO: common: created directory at: artifacts]
+[2024-08-07 01:14:32,633: INFO: common: created directory at: artifacts/model_training]
+[2024-08-07 01:14:37,228: INFO: common: created directory at: model]
+[2024-08-07 01:14:37,734: INFO: c5_model_training: Model Trained]
+[2024-08-07 01:14:37,742: INFO: c5_model_training: Model saved at model/model.joblib]
+[2024-08-07 01:14:37,743: INFO: main: 
+
+******** Stage :  Model Training --> (Completed) ********
+
+]
+[2024-08-07 01:14:37,750: INFO: main: 
+
+******** Stage :  Model Evaluation --> (Started) ********
+
+]
+[2024-08-07 01:14:37,751: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-07 01:14:37,758: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-07 01:14:37,759: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-08-07 01:14:37,762: INFO: common: created directory at: artifacts]
+[2024-08-07 01:14:37,764: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-08-07 01:14:39,422: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-08-07 01:15:19,366: INFO: main: 
+
+******** Stage :  Model Evaluation --> (Completed) ********
+
+]
+[2024-08-07 01:15:19,366: INFO: main: 
+
+
+===================== PROGRAMME COMPLETED =====================
+
+
+]
+[2024-08-07 01:15:19,892: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:15:19] "POST /training HTTP/1.1" 200 -]
+[2024-08-07 01:15:19,916: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:15:19] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-08-07 01:15:33,817: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:15:33] "GET / HTTP/1.1" 200 -]
+[2024-08-07 01:15:33,832: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:15:33] "[36mGET /static/main.css HTTP/1.1[0m" 304 -]
+[2024-08-07 01:16:10,217: ERROR: app: Exception on / [POST]]
+Traceback (most recent call last):
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\asbpi\OneDrive\Desktop\ASB\Data_Science\PROJECTS\Portfolio Projects\Stroke-Risk-Prediction\app.py", line 33, in home
+    result, prob, color = prediction_instance.predict()
+  File "c:\users\asbpi\onedrive\desktop\asb\data_science\projects\portfolio projects\stroke-risk-prediction\src\stroke_risk\pipeline\prediction.py", line 72, in predict
+    result = model.predict(final_data)
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\sklearn\ensemble\_forest.py", line 904, in predict
+    proba = self.predict_proba(X)
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\sklearn\ensemble\_forest.py", line 946, in predict_proba
+    X = self._validate_X_predict(X)
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\sklearn\ensemble\_forest.py", line 636, in _validate_X_predict
+    if self.estimators_[0]._support_missing_values(X):
+  File "C:\Users\asbpi\anaconda3\envs\stroke\lib\site-packages\sklearn\tree\_classes.py", line 188, in _support_missing_values
+    and self.monotonic_cst is None
+AttributeError: 'DecisionTreeClassifier' object has no attribute 'monotonic_cst'
+[2024-08-07 01:16:10,223: INFO: _internal: 192.168.1.7 - - [07/Aug/2024 01:16:10] "[35m[1mPOST / HTTP/1.1[0m" 500 -]
